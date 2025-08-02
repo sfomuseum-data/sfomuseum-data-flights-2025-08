@@ -2,10 +2,12 @@
   "id": 1981006939,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-08-01",
-    "date:inception_upper": "2025-08-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-01",
+    "date:cessation_lower": "2025-08-02",
+    "date:cessation_upper": "2025-08-02",
+    "date:inception_lower": "2025-08-02",
+    "date:inception_upper": "2025-08-02",
+    "edtf:cessation": "2025-08-02T10:28:00Z",
+    "edtf:inception": "2025-08-02T05:27:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "DAL",
     "icao:base_airline": "LAN",
     "lbl:latitude": 37.614759,
     "lbl:longitude": -122.382707,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102530741,
     "sfomuseum:base_flight_id": "20250801-D-LAN-8448",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N574DT",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "106973993",
+      "swim:gufi": "KO15061700"
+    },
     "wof:country": "US",
     "wof:created": 1754151203,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
@@ -92,9 +106,10 @@
       102527513,
       1159284261,
       1947304679,
-      1159285641
+      1159285641,
+      1377564297
     ],
-    "wof:lastmodified": 1754151203,
+    "wof:lastmodified": 1754151529,
     "wof:name": "DL1655 (SFO-BOS)",
     "wof:parent_id": 1947304679,
     "wof:placetype": "custom",
