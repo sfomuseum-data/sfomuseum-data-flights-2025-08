@@ -1,0 +1,72 @@
+{
+  "id": 1981013825,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-08-02",
+    "date:inception_upper": "2025-08-02",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-08-02",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2025-08-02",
+    "flysfo:estimated_timestamp": 1754194800,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA8110",
+    "flysfo:gate": "",
+    "flysfo:journey": "TPA-SFO",
+    "flysfo:scheduled_timestamp": 1754195460,
+    "flysfo:timestamp": 1754195460,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,27.972892,-82.530928,37.617990",
+    "geom:latitude": 32.795441,
+    "geom:longitude": -102.4509355,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102533243,
+    "sfomuseum:flight_id": "20250802-A-UAL-8110",
+    "sfomuseum:flight_number": [
+      "UAL8110",
+      "UA8110"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1754237328,
+    "wof:geomhash": "e5ae5d1ea61206da1f1e1104d6bc1bb7",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1981013825,
+        "flight_id": 1981013825
+      }
+    ],
+    "wof:id": 1981013825,
+    "wof:involves": [
+      102527513,
+      102533243,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1754237328,
+    "wof:name": "UA8110 (TPA-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-08",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    27.972892,
+    -82.530928,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-82.530928,27.972892],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
