@@ -2,10 +2,12 @@
   "id": 1981014277,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-02",
+    "date:cessation_upper": "2025-08-02",
     "date:inception_lower": "2025-08-02",
     "date:inception_upper": "2025-08-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-02",
+    "edtf:cessation": "2025-08-02T21:00:57Z",
+    "edtf:inception": "2025-08-02T19:05:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.7750715,
     "iata:airline": "WS",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "WJA",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285523,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250802-A-AMX-7259",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CGWLK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107118560"
+    },
     "wof:country": "US",
     "wof:created": 1754237377,
     "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981014277,
     "wof:involves": [
+      1528104575,
       102527513,
       102555307,
       1159285523,
       1947304669,
       1159283539
     ],
-    "wof:lastmodified": 1754237377,
+    "wof:lastmodified": 1754237880,
     "wof:name": "WS1774 (YVR-SFO)",
     "wof:parent_id": 1947304669,
     "wof:placetype": "custom",

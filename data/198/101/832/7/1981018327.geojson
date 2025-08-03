@@ -2,10 +2,12 @@
   "id": 1981018327,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-02",
+    "date:cessation_upper": "2025-08-02",
     "date:inception_lower": "2025-08-02",
     "date:inception_upper": "2025-08-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-02",
+    "edtf:cessation": "2025-08-02T20:40:31Z",
+    "edtf:inception": "2025-08-02T07:29:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 14.401222499999996,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102557783,
     "sfomuseum:base_flight_id": "20250802-D-DLH-9327",
@@ -53,6 +57,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107071811",
+      "swim:gufi": "KO12237700"
+    },
     "wof:country": "US",
     "wof:created": 1754237817,
     "wof:geomhash": "148b50b9c1c42c575a8cdcaf5b598e8f",
@@ -88,13 +96,14 @@
     ],
     "wof:id": 1981018327,
     "wof:involves": [
+      1159286015,
+      1159289993,
       102557783,
       102527513,
       1159285413,
-      1947304151,
-      1159286015
+      1947304151
     ],
-    "wof:lastmodified": 1754237817,
+    "wof:lastmodified": 1754237896,
     "wof:name": "UA863 (SFO-SYD)",
     "wof:parent_id": 1947304151,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981016143,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-08-02",
-    "date:inception_upper": "2025-08-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-02",
+    "date:cessation_lower": "2025-08-03",
+    "date:cessation_upper": "2025-08-03",
+    "date:inception_lower": "2025-08-03",
+    "date:inception_upper": "2025-08-03",
+    "edtf:cessation": "2025-08-03T09:03:38Z",
+    "edtf:inception": "2025-08-03T04:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B764",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1394298249,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20250802-D-AMX-4599",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N839MH",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107070593",
+      "swim:gufi": "KO11461100"
+    },
     "wof:country": "US",
     "wof:created": 1754237579,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981016143,
     "wof:involves": [
-      102534365,
       102527513,
       1159284261,
       1947304681,
-      1159283539
+      1159283539,
+      1394298249,
+      102534365
     ],
-    "wof:lastmodified": 1754237579,
+    "wof:lastmodified": 1754237890,
     "wof:name": "DL319 (SFO-JFK)",
     "wof:parent_id": 1947304681,
     "wof:placetype": "custom",
