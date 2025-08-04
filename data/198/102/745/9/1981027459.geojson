@@ -2,10 +2,12 @@
   "id": 1981027459,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-03",
+    "date:cessation_upper": "2025-08-03",
     "date:inception_lower": "2025-08-03",
     "date:inception_upper": "2025-08-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-03",
+    "edtf:cessation": "2025-08-03T22:11:00Z",
+    "edtf:inception": "2025-08-03T07:11:38-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-08-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.7160145,
     "geom:longitude": -120.259968,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619425,
     "lbl:longitude": -122.384028,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528985,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N77575",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107215657",
+      "swim:gufi": "KO73514100"
+    },
     "wof:country": "US",
     "wof:created": 1754324256,
     "wof:geomhash": "eb36f7fd50c4e3281bc24d5224da58d3",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1981027459,
     "wof:involves": [
+      1528104577,
       102528985,
       102527513,
       1159285413,
       1947304517
     ],
-    "wof:lastmodified": 1754324256,
+    "wof:lastmodified": 1754324380,
     "wof:name": "UA3757 (SFO-LGB)",
     "wof:parent_id": 1947304517,
     "wof:placetype": "custom",

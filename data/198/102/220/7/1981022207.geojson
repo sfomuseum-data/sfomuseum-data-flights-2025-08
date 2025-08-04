@@ -2,10 +2,12 @@
   "id": 1981022207,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-08-03",
-    "date:inception_upper": "2025-08-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-03",
+    "date:cessation_lower": "2025-08-04",
+    "date:cessation_upper": "2025-08-04",
+    "date:inception_lower": "2025-08-04",
+    "date:inception_upper": "2025-08-04",
+    "edtf:cessation": "2025-08-03T18:04:00-07:00",
+    "edtf:inception": "2025-08-04T06:26:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-08-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N8762Q",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "107158398",
+      "swim:gufi": "KA12007200"
+    },
     "wof:country": "US",
     "wof:created": 1754323670,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 1981022207,
     "wof:involves": [
+      1528104575,
       102527513,
       102526751,
-      1159285591,
-      -1
+      1159285591
     ],
-    "wof:lastmodified": 1754323670,
+    "wof:lastmodified": 1754324363,
     "wof:name": "WN2908 (PHX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981027439,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-03",
+    "date:cessation_upper": "2025-08-03",
     "date:inception_lower": "2025-08-03",
     "date:inception_upper": "2025-08-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-03",
+    "edtf:cessation": "2025-08-03T21:38:00Z",
+    "edtf:inception": "2025-08-03T04:20:48-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -106.3692875,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.620929,
     "lbl:longitude": -122.390272,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 1746879059,
     "sfomuseum:base_flight_id": "20250803-D-ANZ-9707",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N37555",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107197645",
+      "swim:gufi": "KO60643100"
+    },
     "wof:country": "US",
     "wof:created": 1754324253,
     "wof:geomhash": "17371a5d27e54a99ca50752d2b6a5e79",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981027439,
     "wof:involves": [
-      1746879059,
-      102527513,
       1159285413,
       1947304487,
-      1159283697
+      1159283697,
+      1528104577,
+      1746879059,
+      102527513
     ],
-    "wof:lastmodified": 1754324253,
+    "wof:lastmodified": 1754324379,
     "wof:name": "UA336 (SFO-STL)",
     "wof:parent_id": 1947304487,
     "wof:placetype": "custom",
