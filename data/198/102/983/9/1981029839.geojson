@@ -2,10 +2,12 @@
   "id": 1981029839,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-04",
+    "date:cessation_upper": "2025-08-04",
     "date:inception_lower": "2025-08-04",
     "date:inception_upper": "2025-08-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-04",
+    "edtf:cessation": "2025-08-04T11:02:58-07:00",
+    "edtf:inception": "2025-08-04T21:49:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.006986,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250804-A-AAL-7421",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N247AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107298838",
+      "swim:gufi": "KH72975200"
+    },
     "wof:country": "US",
     "wof:created": 1754409841,
     "wof:geomhash": "62f9f5a2734b9c5938b0b415e9e4a515",
@@ -92,9 +106,10 @@
       102521851,
       1159283813,
       1947304275,
-      1159283849
+      1159283849,
+      1377564285
     ],
-    "wof:lastmodified": 1754409841,
+    "wof:lastmodified": 1754410752,
     "wof:name": "AS518 (AUS-SFO)",
     "wof:parent_id": 1947304275,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981032347,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-04",
+    "date:cessation_upper": "2025-08-04",
     "date:inception_lower": "2025-08-04",
     "date:inception_upper": "2025-08-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-04",
+    "edtf:cessation": "2025-08-04T08:04:39-07:00",
+    "edtf:inception": "2025-08-04T20:06:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -116.76460499999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618161,
     "lbl:longitude": -122.384735,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250804-A-ANZ-9415",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N79521",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107290475"
+    },
     "wof:country": "US",
     "wof:created": 1754410120,
     "wof:geomhash": "acf2ad4ec949b4135a187e5a7cb03262",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981032347,
     "wof:involves": [
-      102527513,
-      102530815,
       1159285413,
       1763588337,
-      1159283697
+      1159283697,
+      1159289871,
+      102527513,
+      102530815
     ],
-    "wof:lastmodified": 1754410120,
+    "wof:lastmodified": 1754410774,
     "wof:name": "UA345 (BZN-SFO)",
     "wof:parent_id": 1763588337,
     "wof:placetype": "custom",
