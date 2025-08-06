@@ -2,10 +2,12 @@
   "id": 1981044013,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-05",
+    "date:cessation_upper": "2025-08-05",
     "date:inception_lower": "2025-08-05",
     "date:inception_upper": "2025-08-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-05",
+    "edtf:cessation": "2025-08-05T23:49:00Z",
+    "edtf:inception": "2025-08-05T22:18:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.484166,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102532251,
     "sfomuseum:base_flight_id": "20250805-D-BAW-2982",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N585AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107387734"
+    },
     "wof:country": "US",
     "wof:created": 1754496762,
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981044013,
     "wof:involves": [
+      1159289871,
       102532251,
       102527513,
       1159283813,
       1947304263,
       1159284021
     ],
-    "wof:lastmodified": 1754496762,
+    "wof:lastmodified": 1754497125,
     "wof:name": "AS929 (SFO-PDX)",
     "wof:parent_id": 1947304263,
     "wof:placetype": "custom",

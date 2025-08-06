@@ -2,10 +2,12 @@
   "id": 1981043961,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-05",
+    "date:cessation_upper": "2025-08-05",
     "date:inception_lower": "2025-08-05",
     "date:inception_upper": "2025-08-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-05",
+    "edtf:cessation": "2025-08-05T17:11:00Z",
+    "edtf:inception": "2025-08-05T14:03:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.006986,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102521851,
     "sfomuseum:base_flight_id": "20250805-D-AAL-7408",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N589AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107343453",
+      "swim:gufi": "KO46640300"
+    },
     "wof:country": "US",
     "wof:created": 1754496757,
     "wof:geomhash": "f1e29c4a83094711ef061292cfad3358",
@@ -92,9 +105,10 @@
       102527513,
       1159283813,
       1947304285,
-      1159283849
+      1159283849,
+      1159289871
     ],
-    "wof:lastmodified": 1754496757,
+    "wof:lastmodified": 1754497145,
     "wof:name": "AS512 (SFO-AUS)",
     "wof:parent_id": 1947304285,
     "wof:placetype": "custom",

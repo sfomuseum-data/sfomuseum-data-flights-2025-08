@@ -2,10 +2,12 @@
   "id": 1981039643,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-05",
+    "date:cessation_upper": "2025-08-05",
     "date:inception_lower": "2025-08-05",
     "date:inception_upper": "2025-08-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-05",
+    "edtf:cessation": "2025-08-05T21:38:25Z",
+    "edtf:inception": "2025-08-05T10:14:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DE",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -57.5518295,
     "iata:airline": "DE",
     "iata:base_airline": "",
+    "icao:aircraft": "A339",
     "icao:airline": "CFG",
     "icao:base_airline": "ASA",
     "lbl:latitude": 37.61227,
     "lbl:longitude": -122.390079,
+    "sfomuseum:aircraft_id": 1393786509,
     "sfomuseum:airline_id": 1159284193,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250805-A-ASA-8836",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +61,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107326845"
+    },
     "wof:country": "US",
     "wof:created": 1754496276,
     "wof:geomhash": "ec6660f1f317e7fe021c7c410168f722",
@@ -88,13 +99,14 @@
     ],
     "wof:id": 1981039643,
     "wof:involves": [
+      1947304101,
+      1159283813,
+      1393786509,
       102527513,
       102549057,
-      1159284193,
-      1947304101,
-      1159283813
+      1159284193
     ],
-    "wof:lastmodified": 1754496276,
+    "wof:lastmodified": 1754497119,
     "wof:name": "DE2096 (FRA-SFO)",
     "wof:parent_id": 1947304101,
     "wof:placetype": "custom",

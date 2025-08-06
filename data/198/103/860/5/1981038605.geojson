@@ -2,10 +2,12 @@
   "id": 1981038605,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-05",
+    "date:cessation_upper": "2025-08-05",
     "date:inception_lower": "2025-08-05",
     "date:inception_upper": "2025-08-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-05",
+    "edtf:cessation": "2025-08-05T12:42:16-07:00",
+    "edtf:inception": "2025-08-05T23:08:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AI",
     "flysfo:date": "2025-08-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 34.4709405,
     "geom:longitude": -107.4514485,
     "iata:airline": "AI",
+    "icao:aircraft": "B77W",
     "icao:airline": "AIC",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159283649,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102524745,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "VTALX",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107420969"
+    },
     "wof:country": "US",
     "wof:created": 1754496158,
     "wof:geomhash": "bb69a5eb77b0d8b936e161845acd9445",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1981038605,
     "wof:involves": [
+      1947304265,
+      1159289993,
       102527513,
       102524745,
-      1159283649,
-      1947304265
+      1159283649
     ],
-    "wof:lastmodified": 1754496158,
+    "wof:lastmodified": 1754497110,
     "wof:name": "AI1178 (AEX-SFO)",
     "wof:parent_id": 1947304265,
     "wof:placetype": "custom",

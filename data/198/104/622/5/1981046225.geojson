@@ -2,10 +2,12 @@
   "id": 1981046225,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-05",
+    "date:cessation_upper": "2025-08-05",
     "date:inception_lower": "2025-08-05",
     "date:inception_upper": "2025-08-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-05",
+    "edtf:cessation": "2025-08-05T04:42:53Z",
+    "edtf:inception": "2025-08-05T03:08:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107318084"
+    },
     "wof:country": "US",
     "wof:created": 1754497002,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -94,7 +99,7 @@
       1947304619,
       1159283875
     ],
-    "wof:lastmodified": 1754497002,
+    "wof:lastmodified": 1754497133,
     "wof:name": "UA2019 (SFO-SEA)",
     "wof:parent_id": 1947304619,
     "wof:placetype": "custom",

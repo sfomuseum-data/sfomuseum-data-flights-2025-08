@@ -2,10 +2,12 @@
   "id": 1981042663,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-05",
+    "date:cessation_upper": "2025-08-05",
     "date:inception_lower": "2025-08-05",
     "date:inception_upper": "2025-08-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-05",
+    "edtf:cessation": "2025-08-05T22:57:15Z",
+    "edtf:inception": "2025-08-05T18:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.809414,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "AAL",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102529403,
     "sfomuseum:base_flight_id": "20250805-D-BAW-5618",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N815NN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107366044",
+      "swim:gufi": "KO60514300"
+    },
     "wof:country": "US",
     "wof:created": 1754496614,
     "wof:geomhash": "262283982e32a09ea653beb1776c6fc7",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981042663,
     "wof:involves": [
+      1947304277,
+      1159284021,
+      1159289871,
       102529403,
       102527513,
-      1159283849,
-      1947304277,
-      1159284021
+      1159283849
     ],
-    "wof:lastmodified": 1754496614,
+    "wof:lastmodified": 1754497139,
     "wof:name": "AA3295 (SFO-PHL)",
     "wof:parent_id": 1947304277,
     "wof:placetype": "custom",
