@@ -2,10 +2,12 @@
   "id": 1981055561,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-06",
+    "date:cessation_upper": "2025-08-06",
     "date:inception_lower": "2025-08-06",
     "date:inception_upper": "2025-08-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-06",
+    "edtf:cessation": "2025-08-06T12:55:00Z",
+    "edtf:inception": "2025-08-06T12:14:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-08-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.193359,
     "geom:longitude": -121.0461075,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619197,
     "lbl:longitude": -122.384496,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530717,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N1902U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +56,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107498074",
+      "swim:gufi": "KO40313400"
+    },
     "wof:country": "US",
     "wof:created": 1754583433,
     "wof:geomhash": "7027f9178c7d77a5f6f9a377b7a1bb37",
@@ -83,12 +95,13 @@
     ],
     "wof:id": 1981055561,
     "wof:involves": [
+      1947304515,
+      1159292085,
       102530717,
       102527513,
-      1159285413,
-      1947304515
+      1159285413
     ],
-    "wof:lastmodified": 1754583433,
+    "wof:lastmodified": 1754583572,
     "wof:name": "UA3914 (SFO-FAT)",
     "wof:parent_id": 1947304515,
     "wof:placetype": "custom",

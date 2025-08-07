@@ -2,10 +2,12 @@
   "id": 1981053631,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-06",
+    "date:cessation_upper": "2025-08-06",
     "date:inception_lower": "2025-08-06",
     "date:inception_upper": "2025-08-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-06",
+    "edtf:cessation": "2025-08-06T10:58:00Z",
+    "edtf:inception": "2025-08-06T07:54:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "DAL",
     "icao:base_airline": "CSN",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102531131,
     "sfomuseum:base_flight_id": "20250806-D-CSN-1256",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N123DW",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107410529",
+      "swim:gufi": "KO25261400"
+    },
     "wof:country": "US",
     "wof:created": 1754583220,
     "wof:geomhash": "bbdc3c5edf2b2678c807f6144214d82c",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981053631,
     "wof:involves": [
+      1947304675,
+      1159284165,
+      1159289411,
       102531131,
       102527513,
-      1159284261,
-      1947304675,
-      1159284165
+      1159284261
     ],
-    "wof:lastmodified": 1754583220,
+    "wof:lastmodified": 1754583568,
     "wof:name": "DL2789 (SFO-MSP)",
     "wof:parent_id": 1947304675,
     "wof:placetype": "custom",
