@@ -1,0 +1,72 @@
+{
+  "id": 1981059935,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-08-07",
+    "date:inception_upper": "2025-08-07",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-08-07",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "WN",
+    "flysfo:date": "2025-08-07",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "WN836",
+    "flysfo:gate": "",
+    "flysfo:journey": "MCO-SFO",
+    "flysfo:scheduled_timestamp": 1754599500,
+    "flysfo:timestamp": 1754599500,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,28.431495,-81.307537,37.617990",
+    "geom:latitude": 33.0247425,
+    "geom:longitude": -101.83923999999999,
+    "iata:airline": "WN",
+    "icao:airline": "SWA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285591,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102533657,
+    "sfomuseum:flight_id": "20250807-A-SWA-836",
+    "sfomuseum:flight_number": [
+      "SWA836",
+      "WN836"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1754669296,
+    "wof:geomhash": "5fe9a4073f558f5d433cae4f846ab71e",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1981059935,
+        "flight_id": 1981059935
+      }
+    ],
+    "wof:id": 1981059935,
+    "wof:involves": [
+      102527513,
+      102533657,
+      1159285591,
+      -1
+    ],
+    "wof:lastmodified": 1754669296,
+    "wof:name": "WN836 (MCO-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-08",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    28.431495,
+    -81.307537,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-81.307537,28.431495],[-122.370943,37.61799]],"type":"MultiPoint"}
+}

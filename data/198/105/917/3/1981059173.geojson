@@ -1,0 +1,72 @@
+{
+  "id": 1981059173,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-08-07",
+    "date:inception_upper": "2025-08-07",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-08-07",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "IB",
+    "flysfo:date": "2025-08-07",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "IB7292",
+    "flysfo:gate": "",
+    "flysfo:journey": "IAD-SFO",
+    "flysfo:scheduled_timestamp": 1754586900,
+    "flysfo:timestamp": 1754586900,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-77.453702,38.949246",
+    "geom:latitude": 38.283618000000004,
+    "geom:longitude": -99.9123225,
+    "iata:airline": "IB",
+    "icao:airline": "IBE",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284511,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102528817,
+    "sfomuseum:flight_id": "20250807-A-IBE-7292",
+    "sfomuseum:flight_number": [
+      "IBE7292",
+      "IB7292"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1754669211,
+    "wof:geomhash": "376248592ab7850cfb9a479529cc5caf",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1981059173,
+        "flight_id": 1981059173
+      }
+    ],
+    "wof:id": 1981059173,
+    "wof:involves": [
+      102527513,
+      102528817,
+      1159284511,
+      -1
+    ],
+    "wof:lastmodified": 1754669211,
+    "wof:name": "IB7292 (IAD-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-08",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -77.453702,
+    38.949246
+  ],
+  "geometry": {"coordinates":[[-77.453702,38.949246],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
