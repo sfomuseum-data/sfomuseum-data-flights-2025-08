@@ -2,10 +2,12 @@
   "id": 1981063185,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-07",
+    "date:cessation_upper": "2025-08-07",
     "date:inception_lower": "2025-08-07",
     "date:inception_upper": "2025-08-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-07",
+    "edtf:cessation": "2025-08-07T14:41:58Z",
+    "edtf:inception": "2025-08-07T13:07:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-08-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "DL",
+    "icao:aircraft": "B738",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614792,
     "lbl:longitude": -122.382166,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N3764D",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107512495",
+      "swim:gufi": "KO43561501"
+    },
     "wof:country": "US",
     "wof:created": 1754669658,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1981063185,
     "wof:involves": [
+      1159289871,
       102533269,
       102527513,
       1159284261,
       1947304677
     ],
-    "wof:lastmodified": 1754669658,
+    "wof:lastmodified": 1754669998,
     "wof:name": "DL2721 (SFO-SEA)",
     "wof:parent_id": 1947304677,
     "wof:placetype": "custom",

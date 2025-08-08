@@ -2,10 +2,12 @@
   "id": 1981056487,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-07",
+    "date:cessation_upper": "2025-08-07",
     "date:inception_lower": "2025-08-07",
     "date:inception_upper": "2025-08-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-07",
+    "edtf:cessation": "2025-08-07T14:04:37-07:00",
+    "edtf:inception": "2025-08-07T02:45:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "AAL",
     "icao:base_airline": "FIN",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250807-A-FIN-4076",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N973NN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107491984",
+      "swim:gufi": "KL04586600"
+    },
     "wof:country": "US",
     "wof:created": 1754668885,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981056487,
     "wof:involves": [
+      1947304301,
+      1159284389,
+      1159289871,
       102527513,
       102533795,
-      1159283849,
-      1947304301,
-      1159284389
+      1159283849
     ],
-    "wof:lastmodified": 1754668885,
+    "wof:lastmodified": 1754669975,
     "wof:name": "AA3100 (LAX-SFO)",
     "wof:parent_id": 1947304301,
     "wof:placetype": "custom",

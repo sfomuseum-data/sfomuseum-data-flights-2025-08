@@ -2,10 +2,12 @@
   "id": 1981064641,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-07",
+    "date:cessation_upper": "2025-08-07",
     "date:inception_lower": "2025-08-07",
     "date:inception_upper": "2025-08-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-07",
+    "edtf:cessation": "2025-08-07T23:07:00Z",
+    "edtf:inception": "2025-08-07T20:01:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-08-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.9120825,
     "geom:longitude": -110.006986,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102521851,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N8322X",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107553946",
+      "swim:gufi": "KO63431500"
+    },
     "wof:country": "US",
     "wof:created": 1754669818,
     "wof:geomhash": "f1e29c4a83094711ef061292cfad3358",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1981064641,
     "wof:involves": [
+      1159289871,
       102521851,
       102527513,
       1159285591,
       1947304621
     ],
-    "wof:lastmodified": 1754669818,
+    "wof:lastmodified": 1754670013,
     "wof:name": "WN421 (SFO-AUS)",
     "wof:parent_id": 1947304621,
     "wof:placetype": "custom",
