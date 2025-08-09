@@ -2,10 +2,12 @@
   "id": 1981069417,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-08",
+    "date:cessation_upper": "2025-08-08",
     "date:inception_lower": "2025-08-08",
     "date:inception_upper": "2025-08-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-08",
+    "edtf:cessation": "2025-08-08T08:37:41-07:00",
+    "edtf:inception": "2025-08-08T21:35:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-08-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.461048500000004,
     "geom:longitude": -108.5435595,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533051,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N426WN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "107656978",
+      "swim:gufi": "KL58509600"
+    },
     "wof:country": "US",
     "wof:created": 1754755670,
     "wof:geomhash": "35ddb46351d590846e83b74bc4468cc8",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 1981069417,
     "wof:involves": [
-      102527513,
-      102533051,
       1159285591,
-      -1
+      1159289869,
+      102527513,
+      102533051
     ],
-    "wof:lastmodified": 1754755670,
+    "wof:lastmodified": 1754756357,
     "wof:name": "WN760 (MCI-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

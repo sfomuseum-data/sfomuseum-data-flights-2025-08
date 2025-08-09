@@ -2,10 +2,12 @@
   "id": 1981069411,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-08",
+    "date:cessation_upper": "2025-08-08",
     "date:inception_lower": "2025-08-08",
     "date:inception_upper": "2025-08-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-08",
+    "edtf:cessation": "2025-08-08T20:04:00Z",
+    "edtf:inception": "2025-08-08T17:53:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-08-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.702760999999995,
     "geom:longitude": -105.058423,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531205,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N437WN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "107636088",
+      "swim:gufi": "KD54944600"
+    },
     "wof:country": "US",
     "wof:created": 1754755669,
     "wof:geomhash": "bbd014edfd8455b7d9e062bec23e52e6",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1981069411,
     "wof:involves": [
+      1159289869,
       102527513,
       102531205,
-      1159285591,
-      -1
+      1159285591
     ],
-    "wof:lastmodified": 1754755669,
+    "wof:lastmodified": 1754756357,
     "wof:name": "WN3826 (MDW-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
