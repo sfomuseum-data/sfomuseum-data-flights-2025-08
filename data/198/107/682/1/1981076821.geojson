@@ -1,0 +1,72 @@
+{
+  "id": 1981076821,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-08-09",
+    "date:inception_upper": "2025-08-09",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-08-09",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "AS",
+    "flysfo:date": "2025-08-09",
+    "flysfo:estimated_timestamp": 1754771700,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "AS9985",
+    "flysfo:gate": "",
+    "flysfo:journey": "SJC-SFO",
+    "flysfo:scheduled_timestamp": 1754769240,
+    "flysfo:timestamp": 1754771700,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.363728,-121.928755,37.617990",
+    "geom:latitude": 37.490859,
+    "geom:longitude": -122.14984899999999,
+    "iata:airline": "AS",
+    "icao:airline": "ASA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283813,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102527529,
+    "sfomuseum:flight_id": "20250809-A-ASA-9985",
+    "sfomuseum:flight_number": [
+      "ASA9985",
+      "AS9985"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1754841839,
+    "wof:geomhash": "5aa704d308ccde2b747329ebb6ffcf42",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1981076821,
+        "flight_id": 1981076821
+      }
+    ],
+    "wof:id": 1981076821,
+    "wof:involves": [
+      102527513,
+      102527529,
+      1159283813,
+      -1
+    ],
+    "wof:lastmodified": 1754841839,
+    "wof:name": "AS9985 (SJC-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-08",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.363728,
+    -121.928755,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-121.928755,37.363728],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
