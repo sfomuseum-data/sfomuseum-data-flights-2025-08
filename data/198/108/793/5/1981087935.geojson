@@ -2,10 +2,12 @@
   "id": 1981087935,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-08-10",
-    "date:inception_upper": "2025-08-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-10",
+    "date:cessation_lower": "2025-08-11",
+    "date:cessation_upper": "2025-08-11",
+    "date:inception_lower": "2025-08-11",
+    "date:inception_upper": "2025-08-11",
+    "edtf:cessation": "2025-08-10T17:11:07-07:00",
+    "edtf:inception": "2025-08-11T05:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-08-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N287WN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KA09895200"
+    },
     "wof:country": "US",
     "wof:created": 1754928462,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1981087935,
     "wof:involves": [
-      102527513,
       102526751,
       1159285591,
-      -1
+      1159289869,
+      102527513
     ],
-    "wof:lastmodified": 1754928462,
+    "wof:lastmodified": 1754929170,
     "wof:name": "WN2760 (PHX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

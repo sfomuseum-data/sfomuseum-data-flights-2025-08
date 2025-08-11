@@ -2,10 +2,12 @@
   "id": 1981087957,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-10",
+    "date:cessation_upper": "2025-08-10",
     "date:inception_lower": "2025-08-10",
     "date:inception_upper": "2025-08-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-10",
+    "edtf:cessation": "2025-08-10T12:45:08-07:00",
+    "edtf:inception": "2025-08-10T22:57:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-08-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.180931,
     "geom:longitude": -106.3692875,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 1746879059,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N8857Q",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107836195",
+      "swim:gufi": "KK72684100"
+    },
     "wof:country": "US",
     "wof:created": 1754928465,
     "wof:geomhash": "5aed0915f9f8845326df52b0d348a4b7",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1981087957,
     "wof:involves": [
+      1528104575,
       102527513,
       1746879059,
       1159285591,
       1947304599
     ],
-    "wof:lastmodified": 1754928465,
+    "wof:lastmodified": 1754929170,
     "wof:name": "WN4015 (STL-SFO)",
     "wof:parent_id": 1947304599,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981093367,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-10",
+    "date:cessation_upper": "2025-08-10",
     "date:inception_lower": "2025-08-10",
     "date:inception_upper": "2025-08-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-10",
+    "edtf:cessation": "2025-08-10T08:34:31Z",
+    "edtf:inception": "2025-08-10T03:57:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107771091"
+    },
     "wof:country": "US",
     "wof:created": 1754929060,
     "wof:geomhash": "739cf7062aa24bbf1662c0bae366af8d",
@@ -94,7 +99,7 @@
       1763588337,
       1159283697
     ],
-    "wof:lastmodified": 1754929060,
+    "wof:lastmodified": 1754929171,
     "wof:name": "UA567 (SFO-RDU)",
     "wof:parent_id": 1763588337,
     "wof:placetype": "custom",

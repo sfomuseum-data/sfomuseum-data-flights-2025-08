@@ -2,10 +2,12 @@
   "id": 1981086915,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-10",
+    "date:cessation_upper": "2025-08-10",
     "date:inception_lower": "2025-08-10",
     "date:inception_upper": "2025-08-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-10",
+    "edtf:cessation": "2025-08-10T07:58:04-07:00",
+    "edtf:inception": "2025-08-10T20:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F9",
     "flysfo:date": "2025-08-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "F9",
+    "icao:aircraft": "A21N",
     "icao:airline": "FFT",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527363,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N669FR",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107824966",
+      "swim:gufi": "KU69259100"
+    },
     "wof:country": "US",
     "wof:created": 1754928349,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1981086915,
     "wof:involves": [
-      102527513,
-      102527363,
       1159284401,
-      1947304095
+      1947304095,
+      1377564297,
+      102527513,
+      102527363
     ],
-    "wof:lastmodified": 1754928349,
+    "wof:lastmodified": 1754929162,
     "wof:name": "F93393 (SLC-SFO)",
     "wof:parent_id": 1947304095,
     "wof:placetype": "custom",
