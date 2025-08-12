@@ -2,10 +2,12 @@
   "id": 1981098223,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-11",
+    "date:cessation_upper": "2025-08-11",
     "date:inception_lower": "2025-08-11",
     "date:inception_upper": "2025-08-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-11",
+    "edtf:cessation": "2025-08-11T18:56:00Z",
+    "edtf:inception": "2025-08-11T14:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.7258735,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250811-A-ACA-5033",
@@ -53,6 +57,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107869409"
+    },
     "wof:country": "US",
     "wof:created": 1755014984,
     "wof:geomhash": "4224d1c4c9907a232ddfbf90e60373e4",
@@ -88,13 +95,14 @@
     ],
     "wof:id": 1981098223,
     "wof:involves": [
+      1947304159,
+      1159283597,
+      1159292085,
       102527513,
       102536579,
-      1159285413,
-      1947304159,
-      1159283597
+      1159285413
     ],
-    "wof:lastmodified": 1755014984,
+    "wof:lastmodified": 1755015624,
     "wof:name": "UA718 (MEX-SFO)",
     "wof:parent_id": 1947304159,
     "wof:placetype": "custom",

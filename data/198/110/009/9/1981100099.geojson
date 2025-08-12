@@ -2,10 +2,12 @@
   "id": 1981100099,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-11",
+    "date:cessation_upper": "2025-08-11",
     "date:inception_lower": "2025-08-11",
     "date:inception_upper": "2025-08-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-11",
+    "edtf:cessation": "2025-08-11T20:11:00Z",
+    "edtf:inception": "2025-08-11T00:32:39-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102530741,
     "sfomuseum:base_flight_id": "20250811-D-AAL-7569",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N585AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107873392",
+      "swim:gufi": "KO47472200"
+    },
     "wof:country": "US",
     "wof:created": 1755015196,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
@@ -92,9 +106,10 @@
       102527513,
       1159283813,
       1947304299,
-      1159283849
+      1159283849,
+      1159289871
     ],
-    "wof:lastmodified": 1755015196,
+    "wof:lastmodified": 1755015590,
     "wof:name": "AS249 (SFO-BOS)",
     "wof:parent_id": 1947304299,
     "wof:placetype": "custom",

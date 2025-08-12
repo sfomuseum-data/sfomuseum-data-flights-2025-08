@@ -2,10 +2,12 @@
   "id": 1981101941,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-08-11",
-    "date:inception_upper": "2025-08-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-11",
+    "date:cessation_lower": "2025-08-11",
+    "date:cessation_upper": "2025-08-11",
+    "date:inception_lower": "2025-08-12",
+    "date:inception_upper": "2025-08-12",
+    "edtf:cessation": "2025-08-11T12:57:31Z",
+    "edtf:inception": "2025-08-12T02:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "SK",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -54.860681,
     "iata:airline": "SK",
     "iata:base_airline": "",
+    "icao:aircraft": "A333",
     "icao:airline": "SAS",
     "icao:base_airline": "DAL",
     "lbl:latitude": 37.612048,
     "lbl:longitude": -122.389573,
+    "sfomuseum:aircraft_id": 1159289423,
     "sfomuseum:airline_id": 1159285129,
     "sfomuseum:arrival_id": 102544207,
     "sfomuseum:base_flight_id": "20250811-D-DAL-7684",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "SEREH",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107848300"
+    },
     "wof:country": "US",
     "wof:created": 1755015405,
     "wof:geomhash": "6cbb76e93301e33133b7541a51de6b35",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1981101941,
     "wof:involves": [
+      1159289423,
       102544207,
       102527513,
       1159285129,
       1947304097,
       1159284261
     ],
-    "wof:lastmodified": 1755015405,
+    "wof:lastmodified": 1755015606,
     "wof:name": "SK936 (SFO-CPH)",
     "wof:parent_id": 1947304097,
     "wof:placetype": "custom",

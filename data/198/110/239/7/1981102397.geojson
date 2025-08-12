@@ -2,10 +2,12 @@
   "id": 1981102397,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-12",
+    "date:cessation_upper": "2025-08-12",
     "date:inception_lower": "2025-08-11",
     "date:inception_upper": "2025-08-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-11",
+    "edtf:cessation": "2025-08-12T04:32:00Z",
+    "edtf:inception": "2025-08-11T23:46:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530049,
     "sfomuseum:base_flight_id": "20250811-D-ANA-7544",
@@ -39,7 +43,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N227UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "107856554",
+      "swim:gufi": "KO68648200"
+    },
     "wof:country": "US",
     "wof:created": 1755015456,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -51,13 +65,13 @@
     ],
     "wof:id": 1981102397,
     "wof:involves": [
-      102530049,
       102527513,
       1159285413,
-      -1,
-      1159283875
+      1159283875,
+      1159289985,
+      102530049
     ],
-    "wof:lastmodified": 1755015456,
+    "wof:lastmodified": 1755015611,
     "wof:name": "UA130 (SFO-EWR)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

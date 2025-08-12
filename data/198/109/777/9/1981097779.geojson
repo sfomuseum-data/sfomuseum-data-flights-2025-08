@@ -2,10 +2,12 @@
   "id": 1981097779,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-08-11",
-    "date:inception_upper": "2025-08-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-11",
+    "date:cessation_lower": "2025-08-11",
+    "date:cessation_upper": "2025-08-11",
+    "date:inception_lower": "2025-08-12",
+    "date:inception_upper": "2025-08-12",
+    "edtf:cessation": "2025-08-11T14:07:32-07:00",
+    "edtf:inception": "2025-08-12T02:53:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -121.76404,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "CMP",
     "lbl:latitude": 37.617421,
     "lbl:longitude": -122.380916,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250811-A-CMP-1431",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N801UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107850609",
+      "swim:gufi": "KS06130300"
+    },
     "wof:country": "US",
     "wof:created": 1755014933,
     "wof:geomhash": "e570a09b358444cf621c068c13b8dbc0",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981097779,
     "wof:involves": [
-      102527513,
       102530507,
       1159285413,
       1947304617,
-      1159284211
+      1159284211,
+      1159289407,
+      102527513
     ],
-    "wof:lastmodified": 1755014933,
+    "wof:lastmodified": 1755015621,
     "wof:name": "UA1944 (RDM-SFO)",
     "wof:parent_id": 1947304617,
     "wof:placetype": "custom",
