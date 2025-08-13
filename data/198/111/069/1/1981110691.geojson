@@ -1,0 +1,72 @@
+{
+  "id": 1981110691,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-08-12",
+    "date:inception_upper": "2025-08-12",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-08-12",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "IB",
+    "flysfo:date": "2025-08-12",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "IB7351",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-IAD",
+    "flysfo:scheduled_timestamp": 1755007200,
+    "flysfo:timestamp": 1755007200,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-77.453702,38.949246",
+    "geom:latitude": 38.283618000000004,
+    "geom:longitude": -99.9123225,
+    "iata:airline": "IB",
+    "icao:airline": "IBE",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284511,
+    "sfomuseum:arrival_id": 102528817,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20250812-D-IBE-7351",
+    "sfomuseum:flight_number": [
+      "IBE7351",
+      "IB7351"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1755101710,
+    "wof:geomhash": "1c4ce661f6692034a082b31062a17f5e",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1981110691,
+        "flight_id": 1981110691
+      }
+    ],
+    "wof:id": 1981110691,
+    "wof:involves": [
+      102528817,
+      102527513,
+      1159284511,
+      -1
+    ],
+    "wof:lastmodified": 1755101710,
+    "wof:name": "IB7351 (SFO-IAD)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-08",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -77.453702,
+    38.949246
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-77.453702,38.949246]],"type":"MultiPoint"}
+}

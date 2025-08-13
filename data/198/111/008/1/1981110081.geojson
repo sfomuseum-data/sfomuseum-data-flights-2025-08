@@ -1,0 +1,72 @@
+{
+  "id": 1981110081,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-08-12",
+    "date:inception_upper": "2025-08-12",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-08-12",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "DL",
+    "flysfo:date": "2025-08-12",
+    "flysfo:estimated_timestamp": 1755017100,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "DL8962",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-PVD",
+    "flysfo:scheduled_timestamp": 1755014400,
+    "flysfo:timestamp": 1755017100,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-71.432378,41.727374",
+    "geom:latitude": 39.672681999999995,
+    "geom:longitude": -96.90166049999999,
+    "iata:airline": "DL",
+    "icao:airline": "DAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284261,
+    "sfomuseum:arrival_id": 102526855,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20250812-D-DAL-8962",
+    "sfomuseum:flight_number": [
+      "DAL8962",
+      "DL8962"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1755101640,
+    "wof:geomhash": "0f2e9a7c6aa82bca5f559baf6f896e01",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1981110081,
+        "flight_id": 1981110081
+      }
+    ],
+    "wof:id": 1981110081,
+    "wof:involves": [
+      102526855,
+      102527513,
+      1159284261,
+      -1
+    ],
+    "wof:lastmodified": 1755101640,
+    "wof:name": "DL8962 (SFO-PVD)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-08",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -71.432378,
+    41.727374
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-71.432378,41.727374]],"type":"MultiPoint"}
+}
