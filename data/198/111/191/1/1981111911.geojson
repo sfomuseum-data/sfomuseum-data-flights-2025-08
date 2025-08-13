@@ -2,10 +2,12 @@
   "id": 1981111911,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-13",
+    "date:cessation_upper": "2025-08-13",
     "date:inception_lower": "2025-08-12",
     "date:inception_upper": "2025-08-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-12",
+    "edtf:cessation": "2025-08-13T07:05:30Z",
+    "edtf:inception": "2025-08-12T05:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620164,
     "lbl:longitude": -122.387194,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:base_flight_id": "20250812-D-ACA-4292",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N57439",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107934963",
+      "swim:gufi": "KO17128400"
+    },
     "wof:country": "US",
     "wof:created": 1755101848,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981111911,
     "wof:involves": [
-      102528997,
       102527513,
       1159285413,
       1930457221,
-      1159283597
+      1159283597,
+      1377564285,
+      102528997
     ],
-    "wof:lastmodified": 1755101848,
+    "wof:lastmodified": 1755101969,
     "wof:name": "UA2861 (SFO-SAN)",
     "wof:parent_id": 1930457221,
     "wof:placetype": "custom",

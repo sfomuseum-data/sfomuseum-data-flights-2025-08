@@ -2,10 +2,12 @@
   "id": 1981111627,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-08-12",
-    "date:inception_upper": "2025-08-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-12",
+    "date:cessation_lower": "2025-08-13",
+    "date:cessation_upper": "2025-08-13",
+    "date:inception_lower": "2025-08-13",
+    "date:inception_upper": "2025-08-13",
+    "edtf:cessation": "2025-08-13T04:55:00Z",
+    "edtf:inception": "2025-08-13T04:05:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.3621325,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617921,
     "lbl:longitude": -122.38181,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 1746879083,
     "sfomuseum:base_flight_id": "20250812-D-ACA-4396",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N481UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107933476",
+      "swim:gufi": "KO10221400"
+    },
     "wof:country": "US",
     "wof:created": 1755101816,
     "wof:geomhash": "5b5841a3ebf3c57d9843115edfb8ee6b",
@@ -92,9 +106,10 @@
       102527513,
       1159285413,
       1947304623,
-      1159283597
+      1159283597,
+      1159292085
     ],
-    "wof:lastmodified": 1755101816,
+    "wof:lastmodified": 1755101965,
     "wof:name": "UA1190 (SFO-BUR)",
     "wof:parent_id": 1947304623,
     "wof:placetype": "custom",

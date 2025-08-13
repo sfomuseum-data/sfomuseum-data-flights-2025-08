@@ -2,10 +2,12 @@
   "id": 1981111603,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-12",
+    "date:cessation_upper": "2025-08-12",
     "date:inception_lower": "2025-08-12",
     "date:inception_upper": "2025-08-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-12",
+    "edtf:cessation": "2025-08-12T10:14:55Z",
+    "edtf:inception": "2025-08-12T05:47:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107934959"
+    },
     "wof:country": "US",
     "wof:created": 1755101813,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -94,7 +99,7 @@
       1947304617,
       1159283697
     ],
-    "wof:lastmodified": 1755101813,
+    "wof:lastmodified": 1755101964,
     "wof:name": "UA1083 (SFO-ATL)",
     "wof:parent_id": 1947304617,
     "wof:placetype": "custom",

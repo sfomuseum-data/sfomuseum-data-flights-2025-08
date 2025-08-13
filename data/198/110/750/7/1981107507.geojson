@@ -2,10 +2,12 @@
   "id": 1981107507,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-13",
+    "date:cessation_upper": "2025-08-13",
     "date:inception_lower": "2025-08-12",
     "date:inception_upper": "2025-08-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-12",
+    "edtf:cessation": "2025-08-13T00:32:00Z",
+    "edtf:inception": "2025-08-12T20:14:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -104.5237975,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250812-A-ANZ-9388",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N834UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "107987056",
+      "swim:gufi": "KM68292300"
+    },
     "wof:country": "US",
     "wof:created": 1755101351,
     "wof:geomhash": "462e561a68f133085fb895c49eddc748",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981107507,
     "wof:involves": [
+      1159289407,
       102527513,
       102525035,
       1159285413,
       1947304609,
       1159283697
     ],
-    "wof:lastmodified": 1755101351,
+    "wof:lastmodified": 1755101986,
     "wof:name": "UA539 (BNA-SFO)",
     "wof:parent_id": 1947304609,
     "wof:placetype": "custom",
