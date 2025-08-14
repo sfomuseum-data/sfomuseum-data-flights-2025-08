@@ -2,10 +2,12 @@
   "id": 1981116565,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-08-13",
-    "date:inception_upper": "2025-08-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-13",
+    "date:cessation_lower": "2025-08-13",
+    "date:cessation_upper": "2025-08-13",
+    "date:inception_lower": "2025-08-14",
+    "date:inception_upper": "2025-08-14",
+    "edtf:cessation": "2025-08-13T16:02:30-07:00",
+    "edtf:inception": "2025-08-14T02:21:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-08-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 44.9663905,
     "geom:longitude": -58.794018,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102542801,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N78009",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "108063926",
+      "swim:gufi": "KG84280400"
+    },
     "wof:country": "US",
     "wof:created": 1755187733,
     "wof:geomhash": "bfe9b4dfbd612ca8de6bd9460273f90d",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1981116565,
     "wof:involves": [
+      1159289985,
       102527513,
       102542801,
       1159285413,
       1947304151
     ],
-    "wof:lastmodified": 1755187733,
+    "wof:lastmodified": 1755188351,
     "wof:name": "UA3875 (AMS-SFO)",
     "wof:parent_id": 1947304151,
     "wof:placetype": "custom",
