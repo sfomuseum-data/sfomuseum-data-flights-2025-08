@@ -2,10 +2,12 @@
   "id": 1981126257,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-14",
+    "date:cessation_upper": "2025-08-14",
     "date:inception_lower": "2025-08-14",
     "date:inception_upper": "2025-08-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-14",
+    "edtf:cessation": "2025-08-14T10:22:32-07:00",
+    "edtf:inception": "2025-08-14T23:01:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.484166,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.616825,
     "lbl:longitude": -122.381021,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250814-A-ANZ-9353",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N850UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "108180006",
+      "swim:gufi": "KS78681500"
+    },
     "wof:country": "US",
     "wof:created": 1755274180,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981126257,
     "wof:involves": [
+      1159289407,
       102527513,
       102532251,
       1159285413,
       1947304607,
       1159283697
     ],
-    "wof:lastmodified": 1755274180,
+    "wof:lastmodified": 1755274788,
     "wof:name": "UA740 (PDX-SFO)",
     "wof:parent_id": 1947304607,
     "wof:placetype": "custom",

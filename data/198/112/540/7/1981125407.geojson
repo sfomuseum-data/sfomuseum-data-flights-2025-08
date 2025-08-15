@@ -2,10 +2,12 @@
   "id": 1981125407,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-14",
+    "date:cessation_upper": "2025-08-14",
     "date:inception_lower": "2025-08-14",
     "date:inception_upper": "2025-08-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-14",
+    "edtf:cessation": "2025-08-14T17:07:28Z",
+    "edtf:inception": "2025-08-14T05:56:53Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "JX",
     "flysfo:date": "2025-08-14",
@@ -48,6 +50,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "108193290"
+    },
     "wof:country": "US",
     "wof:created": 1755274087,
     "wof:geomhash": "07bfd75b358269393c92373b424876ce",
@@ -88,7 +93,7 @@
       1880516289,
       1947304075
     ],
-    "wof:lastmodified": 1755274087,
+    "wof:lastmodified": 1755274785,
     "wof:name": "JX3012 (TPE-SFO)",
     "wof:parent_id": 1947304075,
     "wof:placetype": "custom",
