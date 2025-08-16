@@ -2,10 +2,12 @@
   "id": 1981139843,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-08-15",
-    "date:inception_upper": "2025-08-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-15",
+    "date:cessation_lower": "2025-08-15",
+    "date:cessation_upper": "2025-08-15",
+    "date:inception_lower": "2025-08-16",
+    "date:inception_upper": "2025-08-16",
+    "edtf:cessation": "2025-08-15T14:11:00Z",
+    "edtf:inception": "2025-08-15T23:24:25-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.620164,
     "lbl:longitude": -122.387194,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20250815-D-AVA-2163",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N47280",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "108217400",
+      "swim:gufi": "KO43992600"
+    },
     "wof:country": "US",
     "wof:created": 1755361038,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981139843,
     "wof:involves": [
+      1159285749,
+      1528104575,
       102533795,
       102527513,
       1159285413,
-      1930457221,
-      1159285749
+      1930457221
     ],
-    "wof:lastmodified": 1755361038,
+    "wof:lastmodified": 1755361195,
     "wof:name": "UA1571 (SFO-LAX)",
     "wof:parent_id": 1930457221,
     "wof:placetype": "custom",

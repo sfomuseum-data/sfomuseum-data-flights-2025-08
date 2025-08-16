@@ -2,10 +2,12 @@
   "id": 1981140391,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-16",
+    "date:cessation_upper": "2025-08-16",
     "date:inception_lower": "2025-08-15",
     "date:inception_upper": "2025-08-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-15",
+    "edtf:cessation": "2025-08-16T00:55:00Z",
+    "edtf:inception": "2025-08-15T10:00:26-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-08-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N471UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "108278775",
+      "swim:gufi": "KO80606600"
+    },
     "wof:country": "US",
     "wof:created": 1755361099,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -49,9 +63,9 @@
       102533795,
       102527513,
       1159285413,
-      -1
+      1159292085
     ],
-    "wof:lastmodified": 1755361099,
+    "wof:lastmodified": 1755361170,
     "wof:name": "UA8145 (SFO-LAX)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

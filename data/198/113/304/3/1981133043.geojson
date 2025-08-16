@@ -2,10 +2,12 @@
   "id": 1981133043,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-08-15",
-    "date:inception_upper": "2025-08-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-15",
+    "date:cessation_lower": "2025-08-16",
+    "date:cessation_upper": "2025-08-16",
+    "date:inception_lower": "2025-08-16",
+    "date:inception_upper": "2025-08-16",
+    "edtf:cessation": "2025-08-15T17:36:00-07:00",
+    "edtf:inception": "2025-08-16T05:57:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "HAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250815-A-HAL-6897",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N293AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "108199955",
+      "swim:gufi": "KS15134701"
+    },
     "wof:country": "US",
     "wof:created": 1755360279,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981133043,
     "wof:involves": [
+      1377564285,
       102527513,
       102533269,
       1159283813,
       1947304275,
       1159284489
     ],
-    "wof:lastmodified": 1755360279,
+    "wof:lastmodified": 1755361190,
     "wof:name": "AS980 (SEA-SFO)",
     "wof:parent_id": 1947304275,
     "wof:placetype": "custom",

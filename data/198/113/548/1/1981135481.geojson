@@ -2,10 +2,12 @@
   "id": 1981135481,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-15",
+    "date:cessation_upper": "2025-08-15",
     "date:inception_lower": "2025-08-15",
     "date:inception_upper": "2025-08-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-15",
+    "edtf:cessation": "2025-08-15T07:59:28-07:00",
+    "edtf:inception": "2025-08-15T20:59:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.620791,
     "lbl:longitude": -122.390014,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250815-A-ANZ-9280",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N27268",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "108265733",
+      "swim:gufi": "KL72026600"
+    },
     "wof:country": "US",
     "wof:created": 1755360551,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -92,9 +106,10 @@
       102533795,
       1159285413,
       1947304473,
-      1159283697
+      1159283697,
+      1528104575
     ],
-    "wof:lastmodified": 1755360551,
+    "wof:lastmodified": 1755361192,
     "wof:name": "UA469 (LAX-SFO)",
     "wof:parent_id": 1947304473,
     "wof:placetype": "custom",
