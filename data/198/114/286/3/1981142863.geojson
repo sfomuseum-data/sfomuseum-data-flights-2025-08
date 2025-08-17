@@ -2,10 +2,12 @@
   "id": 1981142863,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-16",
+    "date:cessation_upper": "2025-08-16",
     "date:inception_lower": "2025-08-16",
     "date:inception_upper": "2025-08-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-16",
+    "edtf:cessation": "2025-08-16T23:59:00Z",
+    "edtf:inception": "2025-08-16T18:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B764",
     "icao:airline": "DAL",
     "icao:base_airline": "KLM",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1394298249,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250816-A-KLM-6209",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N842MH",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "108342863",
+      "swim:gufi": "KN62280700"
+    },
     "wof:country": "US",
     "wof:created": 1755446747,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981142863,
     "wof:involves": [
+      1394298249,
       102527513,
       102534365,
       1159284261,
       1763588251,
       1159284613
     ],
-    "wof:lastmodified": 1755446747,
+    "wof:lastmodified": 1755447544,
     "wof:name": "DL363 (JFK-SFO)",
     "wof:parent_id": 1763588251,
     "wof:placetype": "custom",

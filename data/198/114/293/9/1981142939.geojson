@@ -2,10 +2,12 @@
   "id": 1981142939,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-16",
+    "date:cessation_upper": "2025-08-16",
     "date:inception_lower": "2025-08-16",
     "date:inception_upper": "2025-08-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-16",
+    "edtf:cessation": "2025-08-16T07:46:45Z",
+    "edtf:inception": "2025-08-16T03:50:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-08-16",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "108293284"
+    },
     "wof:country": "US",
     "wof:created": 1755446755,
     "wof:geomhash": "bbd014edfd8455b7d9e062bec23e52e6",
@@ -51,7 +56,7 @@
       1159284261,
       -1
     ],
-    "wof:lastmodified": 1755446755,
+    "wof:lastmodified": 1755447544,
     "wof:name": "DL8961 (MDW-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981144679,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-16",
+    "date:cessation_upper": "2025-08-16",
     "date:inception_lower": "2025-08-16",
     "date:inception_upper": "2025-08-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-16",
+    "edtf:cessation": "2025-08-16T00:32:42-07:00",
+    "edtf:inception": "2025-08-16T11:31:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-08-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.461048500000004,
     "geom:longitude": -108.5435595,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533051,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N2846U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "108303130",
+      "swim:gufi": "KK38526700"
+    },
     "wof:country": "US",
     "wof:created": 1755446950,
     "wof:geomhash": "35ddb46351d590846e83b74bc4468cc8",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1981144679,
     "wof:involves": [
-      102527513,
       102533051,
       1159285413,
-      1947304147
+      1947304147,
+      1159289993,
+      102527513
     ],
-    "wof:lastmodified": 1755446950,
+    "wof:lastmodified": 1755447550,
     "wof:name": "UA3771 (MCI-SFO)",
     "wof:parent_id": 1947304147,
     "wof:placetype": "custom",

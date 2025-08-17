@@ -2,10 +2,12 @@
   "id": 1981141455,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-16",
+    "date:cessation_upper": "2025-08-16",
     "date:inception_lower": "2025-08-16",
     "date:inception_upper": "2025-08-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-16",
+    "edtf:cessation": "2025-08-16T06:51:25-07:00",
+    "edtf:inception": "2025-08-16T15:23:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AC",
     "flysfo:date": "2025-08-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.539997,
     "geom:longitude": -98.057846,
     "iata:airline": "AC",
+    "icao:aircraft": "BCS3",
     "icao:airline": "ACA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1813375783,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102554351,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CGVDQ",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "108382603",
+      "swim:gufi": "KB50868700"
+    },
     "wof:country": "US",
     "wof:created": 1755446581,
     "wof:geomhash": "d6fced31e2f30d79d54c9b38b6916cc7",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 1981141455,
     "wof:involves": [
+      1813375783,
       102527513,
       102554351,
-      1159283597,
-      -1
+      1159283597
     ],
-    "wof:lastmodified": 1755446581,
+    "wof:lastmodified": 1755447537,
     "wof:name": "AC7072 (YUL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
