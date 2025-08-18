@@ -2,10 +2,12 @@
   "id": 1981153761,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-17",
+    "date:cessation_upper": "2025-08-17",
     "date:inception_lower": "2025-08-17",
     "date:inception_upper": "2025-08-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-17",
+    "edtf:cessation": "2025-08-17T18:50:00Z",
+    "edtf:inception": "2025-08-17T05:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-08-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 1.8415309999999998,
     "geom:longitude": 14.401222499999996,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617321,
     "lbl:longitude": -122.389477,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102557783,
@@ -48,6 +52,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "108382748",
+      "swim:gufi": "KO62498100"
+    },
     "wof:country": "US",
     "wof:created": 1755533357,
     "wof:geomhash": "f3115fe3d28c66ab4b94072923e0b1bb",
@@ -83,12 +91,13 @@
     ],
     "wof:id": 1981153761,
     "wof:involves": [
+      1159289985,
       102527513,
       102557783,
       1159285413,
       1947304155
     ],
-    "wof:lastmodified": 1755533357,
+    "wof:lastmodified": 1755534021,
     "wof:name": "UA3044 (SYD-SFO)",
     "wof:parent_id": 1947304155,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981152483,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-18",
+    "date:cessation_upper": "2025-08-18",
     "date:inception_lower": "2025-08-17",
     "date:inception_upper": "2025-08-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-17",
+    "edtf:cessation": "2025-08-18T01:49:40Z",
+    "edtf:inception": "2025-08-17T11:49:47Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "VN",
     "flysfo:date": "2025-08-17",
@@ -48,6 +50,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "108527287"
+    },
     "wof:country": "US",
     "wof:created": 1755533212,
     "wof:geomhash": "012961f8e0c3775359f771a39eab25cc",
@@ -88,7 +93,7 @@
       1159285479,
       1947304101
     ],
-    "wof:lastmodified": 1755533212,
+    "wof:lastmodified": 1755533985,
     "wof:name": "VN98 (SGN-SFO)",
     "wof:parent_id": 1947304101,
     "wof:placetype": "custom",

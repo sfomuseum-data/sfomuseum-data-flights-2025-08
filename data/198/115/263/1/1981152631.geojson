@@ -2,10 +2,12 @@
   "id": 1981152631,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-17",
+    "date:cessation_upper": "2025-08-17",
     "date:inception_lower": "2025-08-17",
     "date:inception_upper": "2025-08-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-17",
+    "edtf:cessation": "2025-08-17T06:12:00Z",
+    "edtf:inception": "2025-08-17T00:25:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "B6",
     "flysfo:date": "2025-08-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.990156,
     "geom:longitude": -96.6928465,
     "iata:airline": "B6",
+    "icao:aircraft": "A321",
     "icao:airline": "JBU",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530741,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N979JT",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "108372006",
+      "swim:gufi": "KB01151200"
+    },
     "wof:country": "US",
     "wof:created": 1755533229,
     "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
@@ -49,9 +63,9 @@
       102527513,
       102530741,
       1159284583,
-      -1
+      1159289411
     ],
-    "wof:lastmodified": 1755533229,
+    "wof:lastmodified": 1755534020,
     "wof:name": "B6333 (BOS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

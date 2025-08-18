@@ -2,10 +2,12 @@
   "id": 1981158253,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-17",
+    "date:cessation_upper": "2025-08-17",
     "date:inception_lower": "2025-08-17",
     "date:inception_upper": "2025-08-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-17",
+    "edtf:cessation": "2025-08-17T21:26:00Z",
+    "edtf:inception": "2025-08-17T05:15:22-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -118.1959315,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102554947,
     "sfomuseum:base_flight_id": "20250817-D-ACA-3112",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N78509",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "108422146",
+      "swim:gufi": "KO65646100"
+    },
     "wof:country": "US",
     "wof:created": 1755533854,
     "wof:geomhash": "a7dd599440af55c5534b52449c3164ed",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981158253,
     "wof:involves": [
-      102554947,
       102527513,
       1159285413,
       1947304609,
-      1159283597
+      1159283597,
+      1159289871,
+      102554947
     ],
-    "wof:lastmodified": 1755533854,
+    "wof:lastmodified": 1755534012,
     "wof:name": "UA1596 (SFO-YYC)",
     "wof:parent_id": 1947304609,
     "wof:placetype": "custom",
