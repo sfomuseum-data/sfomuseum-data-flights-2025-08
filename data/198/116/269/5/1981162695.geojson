@@ -2,10 +2,12 @@
   "id": 1981162695,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-18",
+    "date:cessation_upper": "2025-08-18",
     "date:inception_lower": "2025-08-18",
     "date:inception_upper": "2025-08-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-18",
+    "edtf:cessation": "2025-08-18T07:14:00Z",
+    "edtf:inception": "2025-08-18T06:08:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-08-18",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "108460442"
+    },
     "wof:country": "US",
     "wof:created": 1755619686,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -51,7 +56,7 @@
       1159285591,
       -1
     ],
-    "wof:lastmodified": 1755619686,
+    "wof:lastmodified": 1755620381,
     "wof:name": "WN9005 (SAN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

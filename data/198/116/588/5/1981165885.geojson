@@ -2,10 +2,12 @@
   "id": 1981165885,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-18",
+    "date:cessation_upper": "2025-08-18",
     "date:inception_lower": "2025-08-18",
     "date:inception_upper": "2025-08-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-18",
+    "edtf:cessation": "2025-08-18T11:05:28Z",
+    "edtf:inception": "2025-08-18T07:59:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-08-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.2506555,
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
+    "icao:aircraft": "B753",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102531131,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N584NW",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "108464038",
+      "swim:gufi": "KO24661200"
+    },
     "wof:country": "US",
     "wof:created": 1755620055,
     "wof:geomhash": "bbdc3c5edf2b2678c807f6144214d82c",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1981165885,
     "wof:involves": [
-      102531131,
       102527513,
       1159284261,
-      1947304675
+      1947304675,
+      1159289945,
+      102531131
     ],
-    "wof:lastmodified": 1755620055,
+    "wof:lastmodified": 1755620389,
     "wof:name": "DL2789 (SFO-MSP)",
     "wof:parent_id": 1947304675,
     "wof:placetype": "custom",

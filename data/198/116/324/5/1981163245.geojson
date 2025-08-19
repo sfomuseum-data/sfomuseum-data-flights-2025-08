@@ -2,10 +2,12 @@
   "id": 1981163245,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-19",
+    "date:cessation_upper": "2025-08-19",
     "date:inception_lower": "2025-08-18",
     "date:inception_upper": "2025-08-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-18",
+    "edtf:cessation": "2025-08-19T05:17:00Z",
+    "edtf:inception": "2025-08-18T18:20:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-08-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 43.781954,
     "geom:longitude": -57.5518295,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102549057,
@@ -34,7 +38,13 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "108511574"
+    },
     "wof:country": "US",
     "wof:created": 1755619747,
     "wof:geomhash": "ec6660f1f317e7fe021c7c410168f722",
@@ -49,9 +59,9 @@
       102527513,
       102549057,
       1159285413,
-      -1
+      1159289985
     ],
-    "wof:lastmodified": 1755619747,
+    "wof:lastmodified": 1755620383,
     "wof:name": "UA3917 (FRA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

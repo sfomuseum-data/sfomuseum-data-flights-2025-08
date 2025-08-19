@@ -2,10 +2,12 @@
   "id": 1981167773,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-18",
+    "date:cessation_upper": "2025-08-18",
     "date:inception_lower": "2025-08-18",
     "date:inception_upper": "2025-08-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-18",
+    "edtf:cessation": "2025-08-18T18:18:00Z",
+    "edtf:inception": "2025-08-18T16:35:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -116.76460499999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530815,
     "sfomuseum:base_flight_id": "20250818-D-ANZ-9435",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N76516",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "108491639",
+      "swim:gufi": "KO55579200"
+    },
     "wof:country": "US",
     "wof:created": 1755620262,
     "wof:geomhash": "8115bc7828d3bd6404c793fb172971b8",
@@ -92,9 +106,10 @@
       102527513,
       1159285413,
       1947304491,
-      1159283697
+      1159283697,
+      1159289871
     ],
-    "wof:lastmodified": 1755620262,
+    "wof:lastmodified": 1755620394,
     "wof:name": "UA2166 (SFO-BZN)",
     "wof:parent_id": 1947304491,
     "wof:placetype": "custom",

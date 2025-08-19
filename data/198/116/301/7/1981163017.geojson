@@ -2,10 +2,12 @@
   "id": 1981163017,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-18",
+    "date:cessation_upper": "2025-08-18",
     "date:inception_lower": "2025-08-18",
     "date:inception_upper": "2025-08-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-18",
+    "edtf:cessation": "2025-08-18T03:09:00Z",
+    "edtf:inception": "2025-08-18T02:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-08-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528997,
@@ -35,6 +39,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "108452713"
+    },
     "wof:country": "US",
     "wof:created": 1755619722,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -46,12 +53,12 @@
     ],
     "wof:id": 1981163017,
     "wof:involves": [
+      1159289871,
       102527513,
       102528997,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1755619722,
+    "wof:lastmodified": 1755620382,
     "wof:name": "UA1871 (SAN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
