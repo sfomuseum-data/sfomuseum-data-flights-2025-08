@@ -2,10 +2,12 @@
   "id": 1981174837,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-19",
+    "date:cessation_upper": "2025-08-19",
     "date:inception_lower": "2025-08-19",
     "date:inception_upper": "2025-08-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-19",
+    "edtf:cessation": "2025-08-19T20:28:59Z",
+    "edtf:inception": "2025-08-19T07:53:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "CZ",
     "flysfo:date": "2025-08-19",
@@ -21,9 +23,11 @@
     "geom:latitude": 34.200895,
     "geom:longitude": -4.081471499999999,
     "iata:airline": "CZ",
+    "icao:aircraft": "B77W",
     "icao:airline": "CSN",
     "lbl:latitude": 37.61227,
     "lbl:longitude": -122.390079,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159284165,
     "sfomuseum:arrival_id": 102550529,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "B20DM",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "108543841"
+    },
     "wof:country": "US",
     "wof:created": 1755706415,
     "wof:geomhash": "45e7108794d81a2dcecee3acf14ea6a4",
@@ -83,12 +95,13 @@
     ],
     "wof:id": 1981174837,
     "wof:involves": [
-      102550529,
-      102527513,
       1159284165,
-      1947304101
+      1947304101,
+      1159289993,
+      102550529,
+      102527513
     ],
-    "wof:lastmodified": 1755706415,
+    "wof:lastmodified": 1755706733,
     "wof:name": "CZ660 (SFO-WUH)",
     "wof:parent_id": 1947304101,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981172177,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-19",
+    "date:cessation_upper": "2025-08-19",
     "date:inception_lower": "2025-08-19",
     "date:inception_upper": "2025-08-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-19",
+    "edtf:cessation": "2025-08-19T14:03:14-07:00",
+    "edtf:inception": "2025-08-19T23:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.7258735,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.61776,
     "lbl:longitude": -122.3918,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250819-A-ACA-3480",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N487UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "108613110",
+      "swim:gufi": "KL80752300"
+    },
     "wof:country": "US",
     "wof:created": 1755706121,
     "wof:geomhash": "4224d1c4c9907a232ddfbf90e60373e4",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981172177,
     "wof:involves": [
+      1947304137,
+      1159283597,
+      1159292085,
       102527513,
       102536579,
-      1159285413,
-      1947304137,
-      1159283597
+      1159285413
     ],
-    "wof:lastmodified": 1755706121,
+    "wof:lastmodified": 1755706750,
     "wof:name": "UA1272 (MEX-SFO)",
     "wof:parent_id": 1947304137,
     "wof:placetype": "custom",
