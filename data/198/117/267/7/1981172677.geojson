@@ -1,0 +1,72 @@
+{
+  "id": 1981172677,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-08-19",
+    "date:inception_upper": "2025-08-19",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-08-19",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2025-08-19",
+    "flysfo:estimated_timestamp": 1755620640,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA8148",
+    "flysfo:gate": "",
+    "flysfo:journey": "PHL-SFO",
+    "flysfo:scheduled_timestamp": 1755619500,
+    "flysfo:timestamp": 1755620640,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-75.247885,39.880952",
+    "geom:latitude": 38.749471,
+    "geom:longitude": -98.809414,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102529403,
+    "sfomuseum:flight_id": "20250819-A-UAL-8148",
+    "sfomuseum:flight_number": [
+      "UAL8148",
+      "UA8148"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1755706178,
+    "wof:geomhash": "70ecaf1bff2da3af9ba52c9bde5534af",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1981172677,
+        "flight_id": 1981172677
+      }
+    ],
+    "wof:id": 1981172677,
+    "wof:involves": [
+      102527513,
+      102529403,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1755706178,
+    "wof:name": "UA8148 (PHL-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-08",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -75.247885,
+    39.880952
+  ],
+  "geometry": {"coordinates":[[-75.247885,39.880952],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
