@@ -2,10 +2,12 @@
   "id": 1981180633,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-20",
+    "date:cessation_upper": "2025-08-20",
     "date:inception_lower": "2025-08-20",
     "date:inception_upper": "2025-08-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-20",
+    "edtf:cessation": "2025-08-20T11:44:44-07:00",
+    "edtf:inception": "2025-08-20T20:48:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-08-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8721885,
     "geom:longitude": -104.5237975,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525035,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N1804U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "108686610"
+    },
     "wof:country": "US",
     "wof:created": 1755792482,
     "wof:geomhash": "462e561a68f133085fb895c49eddc748",
@@ -86,9 +99,10 @@
       102527513,
       102525035,
       1159285591,
-      1947304621
+      1947304621,
+      1528104575
     ],
-    "wof:lastmodified": 1755792482,
+    "wof:lastmodified": 1755793135,
     "wof:name": "WN3092 (BNA-SFO)",
     "wof:parent_id": 1947304621,
     "wof:placetype": "custom",
