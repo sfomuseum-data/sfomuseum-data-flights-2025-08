@@ -2,10 +2,12 @@
   "id": 1981194629,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-21",
+    "date:cessation_upper": "2025-08-21",
     "date:inception_lower": "2025-08-21",
     "date:inception_upper": "2025-08-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-21",
+    "edtf:cessation": "2025-08-21T20:30:00Z",
+    "edtf:inception": "2025-08-21T16:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-08-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.864041,
     "geom:longitude": -101.15226200000001,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620818,
     "lbl:longitude": -122.389182,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527849,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N78002",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "108742823",
+      "swim:gufi": "KO51033500"
+    },
     "wof:country": "US",
     "wof:created": 1755879460,
     "wof:geomhash": "258ecee7418d054b5d98211d885387d1",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1981194629,
     "wof:involves": [
+      1159289985,
       102527849,
       102527513,
       1159285413,
       1947304455
     ],
-    "wof:lastmodified": 1755879460,
+    "wof:lastmodified": 1755879595,
     "wof:name": "UA3883 (SFO-GSO)",
     "wof:parent_id": 1947304455,
     "wof:placetype": "custom",

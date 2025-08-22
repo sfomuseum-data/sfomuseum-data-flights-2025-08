@@ -2,10 +2,12 @@
   "id": 1981188301,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-22",
+    "date:cessation_upper": "2025-08-22",
     "date:inception_lower": "2025-08-21",
     "date:inception_upper": "2025-08-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-21",
+    "edtf:cessation": "2025-08-22T01:36:36Z",
+    "edtf:inception": "2025-08-21T19:52:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B764",
     "icao:airline": "DAL",
     "icao:base_airline": "ITY",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1394298249,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250821-A-ITY-2745",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N835MH",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "108769008",
+      "swim:gufi": "KN66961500"
+    },
     "wof:country": "US",
     "wof:created": 1755878771,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -92,9 +106,10 @@
       102534365,
       1159284261,
       1947304681,
-      1763699293
+      1763699293,
+      1394298249
     ],
-    "wof:lastmodified": 1755878771,
+    "wof:lastmodified": 1755879573,
     "wof:name": "DL679 (JFK-SFO)",
     "wof:parent_id": 1947304681,
     "wof:placetype": "custom",
