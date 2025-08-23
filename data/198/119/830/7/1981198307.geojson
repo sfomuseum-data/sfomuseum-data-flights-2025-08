@@ -2,10 +2,12 @@
   "id": 1981198307,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-22",
+    "date:cessation_upper": "2025-08-22",
     "date:inception_lower": "2025-08-22",
     "date:inception_upper": "2025-08-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-22",
+    "edtf:cessation": "2025-08-22T23:50:00Z",
+    "edtf:inception": "2025-08-22T22:50:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "MX",
     "flysfo:date": "2025-08-22",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.861199,
     "geom:longitude": -119.808415,
     "iata:airline": "MX",
+    "icao:aircraft": "BCS3",
     "icao:airline": "MXY",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1813375783,
     "sfomuseum:airline_id": 1763552131,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530129,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N235BZ",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "108880886"
+    },
     "wof:country": "US",
     "wof:created": 1755965274,
     "wof:geomhash": "6d8f05e22cdd419a749a10658572882e",
@@ -46,12 +58,12 @@
     ],
     "wof:id": 1981198307,
     "wof:involves": [
+      1813375783,
       102527513,
       102530129,
-      1763552131,
-      -1
+      1763552131
     ],
-    "wof:lastmodified": 1755965274,
+    "wof:lastmodified": 1755966024,
     "wof:name": "MX612 (SBD-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

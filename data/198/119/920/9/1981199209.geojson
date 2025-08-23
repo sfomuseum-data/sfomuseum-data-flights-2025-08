@@ -2,10 +2,12 @@
   "id": 1981199209,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-08-22",
-    "date:inception_upper": "2025-08-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-22",
+    "date:cessation_lower": "2025-08-22",
+    "date:cessation_upper": "2025-08-22",
+    "date:inception_lower": "2025-08-23",
+    "date:inception_upper": "2025-08-23",
+    "edtf:cessation": "2025-08-22T14:15:21-07:00",
+    "edtf:inception": "2025-08-23T03:25:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.3621325,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250822-A-ACA-4174",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N435UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KL08949700"
+    },
     "wof:country": "US",
     "wof:created": 1755965376,
     "wof:geomhash": "579cc6c0d5668ba584a946b357aa3191",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1981199209,
     "wof:involves": [
+      1159292085,
       102527513,
       1746879083,
       1159285413,
       1947304609,
       1159283597
     ],
-    "wof:lastmodified": 1755965376,
+    "wof:lastmodified": 1755966033,
     "wof:name": "UA2854 (BUR-SFO)",
     "wof:parent_id": 1947304609,
     "wof:placetype": "custom",
