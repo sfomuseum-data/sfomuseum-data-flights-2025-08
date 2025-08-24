@@ -2,10 +2,12 @@
   "id": 1981208221,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-08-23",
-    "date:inception_upper": "2025-08-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-23",
+    "date:cessation_lower": "2025-08-24",
+    "date:cessation_upper": "2025-08-24",
+    "date:inception_lower": "2025-08-24",
+    "date:inception_upper": "2025-08-24",
+    "edtf:cessation": "2025-08-23T17:51:03-07:00",
+    "edtf:inception": "2025-08-24T02:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.7750715,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.618249,
     "lbl:longitude": -122.381477,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250823-A-AVA-6985",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N58101",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KN05155100"
+    },
     "wof:country": "US",
     "wof:created": 1756051803,
     "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981208221,
     "wof:involves": [
+      1159285749,
+      1159289939,
       102527513,
       102555307,
       1159285413,
-      1947304631,
-      1159285749
+      1947304631
     ],
-    "wof:lastmodified": 1756051803,
+    "wof:lastmodified": 1756052381,
     "wof:name": "UA8174 (YVR-SFO)",
     "wof:parent_id": 1947304631,
     "wof:placetype": "custom",

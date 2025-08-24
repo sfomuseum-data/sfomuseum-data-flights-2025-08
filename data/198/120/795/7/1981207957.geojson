@@ -2,10 +2,12 @@
   "id": 1981207957,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-23",
+    "date:cessation_upper": "2025-08-23",
     "date:inception_lower": "2025-08-23",
     "date:inception_upper": "2025-08-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-23",
+    "edtf:cessation": "2025-08-23T14:36:36-07:00",
+    "edtf:inception": "2025-08-23T22:44:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250823-A-ANZ-9024",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N12109",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "108970564",
+      "swim:gufi": "KB77303700"
+    },
     "wof:country": "US",
     "wof:created": 1756051771,
     "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981207957,
     "wof:involves": [
+      1159283697,
+      1159289939,
       102527513,
       102530741,
       1159285413,
-      1947304491,
-      1159283697
+      1947304491
     ],
-    "wof:lastmodified": 1756051771,
+    "wof:lastmodified": 1756052378,
     "wof:name": "UA2400 (BOS-SFO)",
     "wof:parent_id": 1947304491,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981207991,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-08-23",
-    "date:inception_upper": "2025-08-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-23",
+    "date:cessation_lower": "2025-08-23",
+    "date:cessation_upper": "2025-08-23",
+    "date:inception_lower": "2025-08-24",
+    "date:inception_upper": "2025-08-24",
+    "edtf:cessation": "2025-08-23T13:48:01-07:00",
+    "edtf:inception": "2025-08-24T01:37:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620818,
     "lbl:longitude": -122.389182,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250823-A-ACA-5331",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N772UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KD01889100"
+    },
     "wof:country": "US",
     "wof:created": 1756051775,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -92,9 +105,10 @@
       102531189,
       1159285413,
       1947304455,
-      1159283597
+      1159283597,
+      1159289985
     ],
-    "wof:lastmodified": 1756051775,
+    "wof:lastmodified": 1756052380,
     "wof:name": "UA2681 (DEN-SFO)",
     "wof:parent_id": 1947304455,
     "wof:placetype": "custom",

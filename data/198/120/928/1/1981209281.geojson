@@ -2,10 +2,12 @@
   "id": 1981209281,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-24",
+    "date:cessation_upper": "2025-08-24",
     "date:inception_lower": "2025-08-23",
     "date:inception_upper": "2025-08-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-23",
+    "edtf:cessation": "2025-08-24T05:38:39Z",
+    "edtf:inception": "2025-08-23T20:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "NH",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 9.012156999999995,
     "iata:airline": "NH",
     "iata:base_airline": "",
+    "icao:aircraft": "B77W",
     "icao:airline": "ANA",
     "icao:base_airline": "THA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159283875,
     "sfomuseum:arrival_id": 102541685,
     "sfomuseum:base_flight_id": "20250823-D-THA-6095",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "JA798A",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "108956500"
+    },
     "wof:country": "US",
     "wof:created": 1756051928,
     "wof:geomhash": "b0708fbc9882ec26729f19c3bf135279",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1981209281,
     "wof:involves": [
+      1159285639,
+      1159289993,
       102541685,
       102527513,
       1159283875,
-      1947304159,
-      1159285639
+      1947304159
     ],
-    "wof:lastmodified": 1756051928,
+    "wof:lastmodified": 1756052384,
     "wof:name": "NH7 (SFO-NRT)",
     "wof:parent_id": 1947304159,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981212035,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-23",
+    "date:cessation_upper": "2025-08-23",
     "date:inception_lower": "2025-08-23",
     "date:inception_upper": "2025-08-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-23",
+    "edtf:cessation": "2025-08-23T18:43:00Z",
+    "edtf:inception": "2025-08-23T03:44:16-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-08-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.9389005,
     "geom:longitude": -121.76404,
     "iata:airline": "UA",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619425,
     "lbl:longitude": -122.384028,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530507,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N47332",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "108944260",
+      "swim:gufi": "KO60384700"
+    },
     "wof:country": "US",
     "wof:created": 1756052236,
     "wof:geomhash": "398b6cf59cf3bdf390f5834c7a336099",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1981212035,
     "wof:involves": [
+      1528104575,
       102530507,
       102527513,
       1159285413,
       1947304517
     ],
-    "wof:lastmodified": 1756052236,
+    "wof:lastmodified": 1756052368,
     "wof:name": "UA2441 (SFO-RDM)",
     "wof:parent_id": 1947304517,
     "wof:placetype": "custom",
