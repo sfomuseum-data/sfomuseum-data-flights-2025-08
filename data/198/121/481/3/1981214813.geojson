@@ -2,10 +2,12 @@
   "id": 1981214813,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-25",
+    "date:cessation_upper": "2025-08-25",
     "date:inception_lower": "2025-08-24",
     "date:inception_upper": "2025-08-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-24",
+    "edtf:cessation": "2025-08-25T03:58:27Z",
+    "edtf:inception": "2025-08-24T23:37:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-08-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.283781000000005,
     "geom:longitude": -105.133641,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530849,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N6704Z",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "109047257"
+    },
     "wof:country": "US",
     "wof:created": 1756138006,
     "wof:geomhash": "1e284fd777a7bf1f8b464fea635cfcb1",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1981214813,
     "wof:involves": [
+      1159289939,
       102527513,
       102530849,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1756138006,
+    "wof:lastmodified": 1756138881,
     "wof:name": "DL8888 (MKE-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

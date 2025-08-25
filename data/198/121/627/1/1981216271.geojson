@@ -2,10 +2,12 @@
   "id": 1981216271,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-24",
+    "date:cessation_upper": "2025-08-24",
     "date:inception_lower": "2025-08-24",
     "date:inception_upper": "2025-08-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-24",
+    "edtf:cessation": "2025-08-24T03:01:57-07:00",
+    "edtf:inception": "2025-08-24T16:11:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.620818,
     "lbl:longitude": -122.389182,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250824-A-ANA-7355",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N854UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "109010336",
+      "swim:gufi": "KL51114100"
+    },
     "wof:country": "US",
     "wof:created": 1756138179,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981216271,
     "wof:involves": [
+      1159283875,
+      1159289407,
       102527513,
       102533795,
       1159285413,
-      1947304455,
-      1159283875
+      1947304455
     ],
-    "wof:lastmodified": 1756138179,
+    "wof:lastmodified": 1756138897,
     "wof:name": "UA1093 (LAX-SFO)",
     "wof:parent_id": 1947304455,
     "wof:placetype": "custom",
