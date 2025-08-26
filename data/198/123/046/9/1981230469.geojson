@@ -2,10 +2,12 @@
   "id": 1981230469,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-25",
+    "date:cessation_upper": "2025-08-25",
     "date:inception_lower": "2025-08-25",
     "date:inception_upper": "2025-08-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-25",
+    "edtf:cessation": "2025-08-25T10:34:38Z",
+    "edtf:inception": "2025-08-25T05:36:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "109065179"
+    },
     "wof:country": "US",
     "wof:created": 1756225149,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
@@ -94,7 +99,7 @@
       1947304519,
       1159283697
     ],
-    "wof:lastmodified": 1756225149,
+    "wof:lastmodified": 1756225266,
     "wof:name": "UA796 (SFO-BOS)",
     "wof:parent_id": 1947304519,
     "wof:placetype": "custom",

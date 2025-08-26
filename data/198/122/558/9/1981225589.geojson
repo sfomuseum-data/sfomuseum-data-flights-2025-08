@@ -2,10 +2,12 @@
   "id": 1981225589,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-25",
+    "date:cessation_upper": "2025-08-25",
     "date:inception_lower": "2025-08-25",
     "date:inception_upper": "2025-08-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-25",
+    "edtf:cessation": "2025-08-25T16:03:00Z",
+    "edtf:inception": "2025-08-25T12:48:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-08-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.459714,
     "geom:longitude": -109.134272,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617532,
     "lbl:longitude": -122.382384,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102524739,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N878UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "109076883",
+      "swim:gufi": "KP42072200"
+    },
     "wof:country": "US",
     "wof:created": 1756224580,
     "wof:geomhash": "a4023a41644574291fc7580f5443d9f4",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1981225589,
     "wof:involves": [
+      1159289407,
       102527513,
       102524739,
       1159285413,
       1947304619
     ],
-    "wof:lastmodified": 1756224580,
+    "wof:lastmodified": 1756225280,
     "wof:name": "UA2027 (OMA-SFO)",
     "wof:parent_id": 1947304619,
     "wof:placetype": "custom",
