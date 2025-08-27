@@ -2,10 +2,12 @@
   "id": 1981234547,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-26",
+    "date:cessation_upper": "2025-08-26",
     "date:inception_lower": "2025-08-26",
     "date:inception_upper": "2025-08-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-26",
+    "edtf:cessation": "2025-08-26T01:56:21-07:00",
+    "edtf:inception": "2025-08-26T12:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.134272,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250826-A-ACA-4685",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N807UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "109156497",
+      "swim:gufi": "KP42016300"
+    },
     "wof:country": "US",
     "wof:created": 1756310974,
     "wof:geomhash": "a4023a41644574291fc7580f5443d9f4",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981234547,
     "wof:involves": [
-      102527513,
       102524739,
       1159285413,
       1947304603,
-      1159283597
+      1159283597,
+      1159289407,
+      102527513
     ],
-    "wof:lastmodified": 1756310974,
+    "wof:lastmodified": 1756311630,
     "wof:name": "UA2027 (OMA-SFO)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",

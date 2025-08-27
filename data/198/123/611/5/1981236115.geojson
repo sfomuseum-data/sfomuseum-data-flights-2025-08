@@ -2,10 +2,12 @@
   "id": 1981236115,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-26",
+    "date:cessation_upper": "2025-08-26",
     "date:inception_lower": "2025-08-26",
     "date:inception_upper": "2025-08-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-26",
+    "edtf:cessation": "2025-08-26T22:07:18Z",
+    "edtf:inception": "2025-08-26T10:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "NZ",
     "flysfo:date": "2025-08-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 0.30624449999999825,
     "geom:longitude": 26.208867500000004,
     "iata:airline": "NZ",
+    "icao:aircraft": "B789",
     "icao:airline": "ANZ",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159283697,
     "sfomuseum:arrival_id": 102552389,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "ZKNZG",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "109230141"
+    },
     "wof:country": "US",
     "wof:created": 1756311154,
     "wof:geomhash": "0a41093e5d82882db018a6f46a3ef58a",
@@ -46,12 +58,12 @@
     ],
     "wof:id": 1981236115,
     "wof:involves": [
-      102552389,
       102527513,
       1159283697,
-      -1
+      1159293215,
+      102552389
     ],
-    "wof:lastmodified": 1756311154,
+    "wof:lastmodified": 1756311647,
     "wof:name": "NZ6007 (SFO-AKL)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
