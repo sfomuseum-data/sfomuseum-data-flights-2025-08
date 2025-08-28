@@ -2,10 +2,12 @@
   "id": 1981241331,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-27",
+    "date:cessation_upper": "2025-08-27",
     "date:inception_lower": "2025-08-27",
     "date:inception_upper": "2025-08-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-27",
+    "edtf:cessation": "2025-08-27T03:56:45-07:00",
+    "edtf:inception": "2025-08-27T12:07:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "DAL",
     "icao:base_airline": "KAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250827-A-KAL-3255",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N502DX",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "109237305",
+      "swim:gufi": "KB39961400"
+    },
     "wof:country": "US",
     "wof:created": 1756397197,
     "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
@@ -92,9 +106,10 @@
       102530741,
       1159284261,
       1947304669,
-      1159284625
+      1159284625,
+      1377564297
     ],
-    "wof:lastmodified": 1756397197,
+    "wof:lastmodified": 1756398094,
     "wof:name": "DL362 (BOS-SFO)",
     "wof:parent_id": 1947304669,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981243059,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-27",
+    "date:cessation_upper": "2025-08-27",
     "date:inception_lower": "2025-08-27",
     "date:inception_upper": "2025-08-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-27",
+    "edtf:cessation": "2025-08-27T15:43:51Z",
+    "edtf:inception": "2025-08-27T14:25:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-08-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617532,
     "lbl:longitude": -122.382384,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532251,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N13227",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "109305994",
+      "swim:gufi": "KS44006400"
+    },
     "wof:country": "US",
     "wof:created": 1756397399,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -86,9 +99,10 @@
       102527513,
       102532251,
       1159285413,
-      1947304619
+      1947304619,
+      1159289871
     ],
-    "wof:lastmodified": 1756397399,
+    "wof:lastmodified": 1756398073,
     "wof:name": "UA3907 (PDX-SFO)",
     "wof:parent_id": 1947304619,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981247611,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-28",
+    "date:cessation_upper": "2025-08-28",
     "date:inception_lower": "2025-08-27",
     "date:inception_upper": "2025-08-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-27",
+    "edtf:cessation": "2025-08-28T05:24:20Z",
+    "edtf:inception": "2025-08-27T14:35:44-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-08-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.022982,
     "geom:longitude": -121.104038,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527337,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N827UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KO12263500"
+    },
     "wof:country": "US",
     "wof:created": 1756397924,
     "wof:geomhash": "1d9a5fa2c9575ebb155d9645f1016c57",
@@ -46,12 +58,12 @@
     ],
     "wof:id": 1981247611,
     "wof:involves": [
-      102527337,
-      102527513,
       1159285413,
-      -1
+      1159289407,
+      102527337,
+      102527513
     ],
-    "wof:lastmodified": 1756397924,
+    "wof:lastmodified": 1756398102,
     "wof:name": "UA8243 (SFO-SBA)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981246199,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-28",
+    "date:cessation_upper": "2025-08-28",
     "date:inception_lower": "2025-08-27",
     "date:inception_upper": "2025-08-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-27",
+    "edtf:cessation": "2025-08-28T10:06:56Z",
+    "edtf:inception": "2025-08-27T22:35:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AZ",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -55.0628825,
     "iata:airline": "AZ",
     "iata:base_airline": "",
+    "icao:aircraft": "A339",
     "icao:airline": "ITY",
     "icao:base_airline": "ETD",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1393786509,
     "sfomuseum:airline_id": 1763699293,
     "sfomuseum:arrival_id": 102547941,
     "sfomuseum:base_flight_id": "20250827-D-ETD-2971",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "EITYA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "109284025"
+    },
     "wof:country": "US",
     "wof:created": 1756397762,
     "wof:geomhash": "033526ec5f586bb6dd7c4e05cd770e88",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1981246199,
     "wof:involves": [
+      1947304093,
+      1159285587,
+      1393786509,
       102547941,
       102527513,
-      1763699293,
-      1947304093,
-      1159285587
+      1763699293
     ],
-    "wof:lastmodified": 1756397762,
+    "wof:lastmodified": 1756398086,
     "wof:name": "AZ641 (SFO-FCO)",
     "wof:parent_id": 1947304093,
     "wof:placetype": "custom",

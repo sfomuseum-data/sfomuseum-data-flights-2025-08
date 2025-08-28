@@ -2,10 +2,12 @@
   "id": 1981242941,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-08-27",
-    "date:inception_upper": "2025-08-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-27",
+    "date:cessation_lower": "2025-08-27",
+    "date:cessation_upper": "2025-08-27",
+    "date:inception_lower": "2025-08-28",
+    "date:inception_upper": "2025-08-28",
+    "edtf:cessation": "2025-08-27T15:26:07-07:00",
+    "edtf:inception": "2025-08-28T04:37:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "CMP",
     "lbl:latitude": 37.620164,
     "lbl:longitude": -122.387194,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250827-A-CMP-1065",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N68842",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KL10310500"
+    },
     "wof:country": "US",
     "wof:created": 1756397385,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -92,9 +105,10 @@
       102533795,
       1159285413,
       1930457221,
-      1159284211
+      1159284211,
+      1377564285
     ],
-    "wof:lastmodified": 1756397385,
+    "wof:lastmodified": 1756398097,
     "wof:name": "UA2220 (LAX-SFO)",
     "wof:parent_id": 1930457221,
     "wof:placetype": "custom",
