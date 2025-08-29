@@ -2,10 +2,12 @@
   "id": 1981252153,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-28",
+    "date:cessation_upper": "2025-08-28",
     "date:inception_lower": "2025-08-28",
     "date:inception_upper": "2025-08-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-28",
+    "edtf:cessation": "2025-08-28T22:52:00Z",
+    "edtf:inception": "2025-08-28T19:25:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-08-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.9079925,
     "geom:longitude": -105.73387299999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528325,
@@ -35,6 +39,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "109370210"
+    },
     "wof:country": "US",
     "wof:created": 1756483814,
     "wof:geomhash": "0eac971f583e16e07489f379c09d27be",
@@ -46,12 +53,12 @@
     ],
     "wof:id": 1981252153,
     "wof:involves": [
-      102527513,
-      102528325,
       1159285413,
-      -1
+      1159289985,
+      102527513,
+      102528325
     ],
-    "wof:lastmodified": 1756483814,
+    "wof:lastmodified": 1756484514,
     "wof:name": "UA3895 (RFD-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

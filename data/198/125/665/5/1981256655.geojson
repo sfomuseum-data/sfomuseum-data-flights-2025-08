@@ -2,10 +2,12 @@
   "id": 1981256655,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-29",
+    "date:cessation_upper": "2025-08-29",
     "date:inception_lower": "2025-08-28",
     "date:inception_upper": "2025-08-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-28",
+    "edtf:cessation": "2025-08-29T03:49:00Z",
+    "edtf:inception": "2025-08-28T10:53:31-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.4218635,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527373,
     "sfomuseum:base_flight_id": "20250828-D-ACA-4347",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N76504",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO82745500"
+    },
     "wof:country": "US",
     "wof:created": 1756484321,
     "wof:geomhash": "3d1812cb234aac8b643ea0201167e576",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981256655,
     "wof:involves": [
+      1159289871,
       102527373,
       102527513,
       1159285413,
       1947304525,
       1159283597
     ],
-    "wof:lastmodified": 1756484321,
+    "wof:lastmodified": 1756484534,
     "wof:name": "UA424 (SFO-SAT)",
     "wof:parent_id": 1947304525,
     "wof:placetype": "custom",

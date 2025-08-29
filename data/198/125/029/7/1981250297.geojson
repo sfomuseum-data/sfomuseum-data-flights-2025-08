@@ -2,10 +2,12 @@
   "id": 1981250297,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-28",
+    "date:cessation_upper": "2025-08-28",
     "date:inception_lower": "2025-08-28",
     "date:inception_upper": "2025-08-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-28",
+    "edtf:cessation": "2025-08-28T13:16:16-07:00",
+    "edtf:inception": "2025-08-28T21:52:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-08-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.3996545,
     "geom:longitude": -99.5210065,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532047,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N662DN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "109383538"
+    },
     "wof:country": "US",
     "wof:created": 1756483601,
     "wof:geomhash": "10c01f207ef95eecc919066d165ec5eb",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1981250297,
     "wof:involves": [
+      1159289939,
       102527513,
       102532047,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1756483601,
+    "wof:lastmodified": 1756484497,
     "wof:name": "DL8878 (BWI-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

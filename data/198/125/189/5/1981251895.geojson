@@ -2,10 +2,12 @@
   "id": 1981251895,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-28",
+    "date:cessation_upper": "2025-08-28",
     "date:inception_lower": "2025-08-28",
     "date:inception_upper": "2025-08-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-28",
+    "edtf:cessation": "2025-08-28T14:23:26-07:00",
+    "edtf:inception": "2025-08-28T22:50:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.809414,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.619197,
     "lbl:longitude": -122.384496,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250828-A-ANZ-9366",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N47282",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "109391244"
+    },
     "wof:country": "US",
     "wof:created": 1756483784,
     "wof:geomhash": "70ecaf1bff2da3af9ba52c9bde5534af",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981251895,
     "wof:involves": [
+      1528104575,
       102527513,
       102529403,
       1159285413,
       1947304515,
       1159283697
     ],
-    "wof:lastmodified": 1756483784,
+    "wof:lastmodified": 1756484511,
     "wof:name": "UA1575 (PHL-SFO)",
     "wof:parent_id": 1947304515,
     "wof:placetype": "custom",

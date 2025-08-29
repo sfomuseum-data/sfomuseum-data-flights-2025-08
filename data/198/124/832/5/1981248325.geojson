@@ -2,10 +2,12 @@
   "id": 1981248325,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-28",
+    "date:cessation_upper": "2025-08-28",
     "date:inception_lower": "2025-08-28",
     "date:inception_upper": "2025-08-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-28",
+    "edtf:cessation": "2025-08-28T15:01:06-07:00",
+    "edtf:inception": "2025-08-28T23:54:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.65686,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "CSN",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250828-A-CSN-1646",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N558UW",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "109394391"
+    },
     "wof:country": "US",
     "wof:created": 1756483358,
     "wof:geomhash": "b96563c9986e04a3607ac552f48e111b",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981248325,
     "wof:involves": [
+      1159289411,
       102527513,
       102528659,
       1159283849,
       1947304317,
       1159284165
     ],
-    "wof:lastmodified": 1756483358,
+    "wof:lastmodified": 1756484499,
     "wof:name": "AA2411 (CLT-SFO)",
     "wof:parent_id": 1947304317,
     "wof:placetype": "custom",

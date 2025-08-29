@@ -2,10 +2,12 @@
   "id": 1981251463,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-29",
+    "date:cessation_upper": "2025-08-29",
     "date:inception_lower": "2025-08-28",
     "date:inception_upper": "2025-08-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-28",
+    "edtf:cessation": "2025-08-29T01:39:01Z",
+    "edtf:inception": "2025-08-28T15:10:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "SK",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -54.860681,
     "iata:airline": "SK",
     "iata:base_airline": "",
+    "icao:aircraft": "A333",
     "icao:airline": "SAS",
     "icao:base_airline": "AFR",
     "lbl:latitude": 37.611747,
     "lbl:longitude": -122.39043,
+    "sfomuseum:aircraft_id": 1159289423,
     "sfomuseum:airline_id": 1159285129,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250828-A-AFR-4345",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "LNRKR",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "109328354"
+    },
     "wof:country": "US",
     "wof:created": 1756483735,
     "wof:geomhash": "5ce04c0590c166d926aa7a8325b74dd4",
@@ -92,9 +105,10 @@
       102544207,
       1159285129,
       1947304083,
-      1159283627
+      1159283627,
+      1159289423
     ],
-    "wof:lastmodified": 1756483735,
+    "wof:lastmodified": 1756484507,
     "wof:name": "SK935 (CPH-SFO)",
     "wof:parent_id": 1947304083,
     "wof:placetype": "custom",
