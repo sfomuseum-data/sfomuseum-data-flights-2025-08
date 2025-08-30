@@ -2,10 +2,12 @@
   "id": 1981261173,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-08-29",
-    "date:inception_upper": "2025-08-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-29",
+    "date:cessation_lower": "2025-08-30",
+    "date:cessation_upper": "2025-08-30",
+    "date:inception_lower": "2025-08-30",
+    "date:inception_upper": "2025-08-30",
+    "edtf:cessation": "2025-08-30T01:18:22Z",
+    "edtf:inception": "2025-08-30T00:25:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-08-29",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +55,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "109562547",
+      "swim:gufi": "KL81738601"
+    },
     "wof:country": "US",
     "wof:created": 1756570196,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -86,9 +97,10 @@
       102527513,
       102533795,
       1159285413,
-      1947304151
+      1947304151,
+      1159293215
     ],
-    "wof:lastmodified": 1756570196,
+    "wof:lastmodified": 1756570870,
     "wof:name": "UA3903 (LAX-SFO)",
     "wof:parent_id": 1947304151,
     "wof:placetype": "custom",

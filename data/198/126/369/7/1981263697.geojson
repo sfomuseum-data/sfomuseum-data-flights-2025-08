@@ -2,10 +2,12 @@
   "id": 1981263697,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-08-29",
-    "date:inception_upper": "2025-08-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-29",
+    "date:cessation_lower": "2025-08-30",
+    "date:cessation_upper": "2025-08-30",
+    "date:inception_lower": "2025-08-30",
+    "date:inception_upper": "2025-08-30",
+    "edtf:cessation": "2025-08-30T09:13:07Z",
+    "edtf:inception": "2025-08-30T04:23:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "icao:base_airline": "ITY",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20250829-D-ITY-3398",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N717TW",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "109410696",
+      "swim:gufi": "KO11461700"
+    },
     "wof:country": "US",
     "wof:created": 1756570482,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -92,9 +106,10 @@
       102527513,
       1159284261,
       1947304675,
-      1763699293
+      1763699293,
+      1159289939
     ],
-    "wof:lastmodified": 1756570482,
+    "wof:lastmodified": 1756570889,
     "wof:name": "DL2112 (SFO-JFK)",
     "wof:parent_id": 1947304675,
     "wof:placetype": "custom",

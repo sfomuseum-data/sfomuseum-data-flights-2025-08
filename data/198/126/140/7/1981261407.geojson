@@ -2,10 +2,12 @@
   "id": 1981261407,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-29",
+    "date:cessation_upper": "2025-08-29",
     "date:inception_lower": "2025-08-29",
     "date:inception_upper": "2025-08-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-29",
+    "edtf:cessation": "2025-08-29T06:20:00Z",
+    "edtf:inception": "2025-08-29T00:39:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.7750715,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618139,
     "lbl:longitude": -122.381258,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20250829-A-ANZ-4849",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +60,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "109399810"
+    },
     "wof:country": "US",
     "wof:created": 1756570223,
     "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
@@ -88,13 +98,14 @@
     ],
     "wof:id": 1981261407,
     "wof:involves": [
+      1159283697,
+      1159289939,
       102527513,
       102555307,
       1159285413,
-      1947304627,
-      1159283697
+      1947304627
     ],
-    "wof:lastmodified": 1756570223,
+    "wof:lastmodified": 1756570872,
     "wof:name": "UA8174 (YVR-SFO)",
     "wof:parent_id": 1947304627,
     "wof:placetype": "custom",
