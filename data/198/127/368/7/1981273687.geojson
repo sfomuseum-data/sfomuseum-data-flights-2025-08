@@ -2,10 +2,12 @@
   "id": 1981273687,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-30",
+    "date:cessation_upper": "2025-08-30",
     "date:inception_lower": "2025-08-30",
     "date:inception_upper": "2025-08-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-30",
+    "edtf:cessation": "2025-08-30T19:35:23Z",
+    "edtf:inception": "2025-08-30T15:39:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-08-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.8087165,
     "geom:longitude": -102.62808,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102532255,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N892UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "109535056",
+      "swim:gufi": "KO52556700"
+    },
     "wof:country": "US",
     "wof:created": 1756657036,
     "wof:geomhash": "b3e3651b522d461c555c2feff400782a",
@@ -86,9 +100,10 @@
       102532255,
       102527513,
       1159285413,
-      1947304453
+      1947304453,
+      1159289407
     ],
-    "wof:lastmodified": 1756657036,
+    "wof:lastmodified": 1756657252,
     "wof:name": "UA1595 (SFO-CMH)",
     "wof:parent_id": 1947304453,
     "wof:placetype": "custom",

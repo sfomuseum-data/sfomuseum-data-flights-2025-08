@@ -2,10 +2,12 @@
   "id": 1981271765,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-08-30",
+    "date:cessation_upper": "2025-08-30",
     "date:inception_lower": "2025-08-30",
     "date:inception_upper": "2025-08-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-08-30",
+    "edtf:cessation": "2025-08-30T15:31:00Z",
+    "edtf:inception": "2025-08-30T14:21:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.778435,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:base_flight_id": "20250830-D-AAL-9340",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N592AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "109528045",
+      "swim:gufi": "KO47471700"
+    },
     "wof:country": "US",
     "wof:created": 1756656816,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -92,9 +106,10 @@
       102527513,
       1159283813,
       1947304387,
-      1159283849
+      1159283849,
+      1159289871
     ],
-    "wof:lastmodified": 1756656816,
+    "wof:lastmodified": 1756657240,
     "wof:name": "AS912 (SFO-SAN)",
     "wof:parent_id": 1947304387,
     "wof:placetype": "custom",
